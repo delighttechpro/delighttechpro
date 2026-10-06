@@ -1,11 +1,12 @@
 import { Link } from "@tanstack/react-router";
 import { Logo } from "./SiteHeader";
+import { socialLinks } from "./social";
 
 const nav = [
   { to: "/services", label: "Services" },
   { to: "/shopify-development", label: "Shopify Development" },
   { to: "/growth", label: "eCommerce Growth" },
-  { to: "/work", label: "Work" },
+  { to: "/work", label: "Portfolio" },
   { to: "/process", label: "Process" },
   { to: "/about", label: "About" },
   { to: "/insights", label: "Insights" },
@@ -32,10 +33,10 @@ export function SiteFooter() {
         </div>
         <div className="md:col-span-3">
           <p className="eyebrow text-ink-muted">Social</p>
-          <ul className="mt-5 space-y-3 text-sm text-ink-foreground/50">
-            <li>LinkedIn — coming soon</li>
-            <li>Instagram — coming soon</li>
-            <li>X — coming soon</li>
+          <ul className="mt-5 space-y-3 text-sm text-ink-muted">
+            {socialLinks.map(({ label, href, Icon }) => (
+              <li key={label}><a href={href} target={label === "Email" ? undefined : "_blank"} rel="noopener noreferrer" className="inline-flex items-center gap-2 break-all hover:text-primary"><Icon className="h-4 w-4 shrink-0" />{label === "Email" ? "delighttechpro@gmail.com" : label}</a></li>
+            ))}
           </ul>
         </div>
       </div>
