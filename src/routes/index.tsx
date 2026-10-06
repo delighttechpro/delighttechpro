@@ -84,7 +84,7 @@ function Trust() {
 
 function ServicesExplorer() {
   const [active, setActive] = useState(0);
-  const s = services[active];
+  const s = services[active] ?? services[0]!;
   return (
     <section className="container-site py-24 md:py-36">
       <SectionHead eyebrow="Services" title="Everything your eCommerce brand needs to grow." intro="One team across the full lifecycle — from the first line of code to the hundredth campaign." />
