@@ -4,6 +4,7 @@ import { z } from "zod";
 import { ArrowUpRight, Check } from "lucide-react";
 import { Eyebrow, Reveal, seo } from "@/components/site/ui";
 import { cn } from "@/lib/utils";
+import { socialLinks } from "@/components/site/social";
 
 export const Route = createFileRoute("/contact")({
   head: () => seo("Start a Project — Contact DelighTech Pro", "Tell us about your Shopify or eCommerce project. Development, CRO, marketing or full growth — let's build something that grows."),
@@ -56,6 +57,11 @@ function Contact() {
               <li key={t} className="flex items-center gap-3"><Check className="h-4 w-4 text-primary" />{t}</li>
             ))}
           </ul>
+          <div className="mt-10 space-y-4 border-t border-ink-border pt-8">
+            {socialLinks.map(({ label, href, Icon }) => (
+              <a key={label} href={href} target={label === "Email" ? undefined : "_blank"} rel="noopener noreferrer" className="flex items-center gap-3 break-all text-ink-foreground hover:text-primary"><Icon className="h-5 w-5 shrink-0" />{label === "Email" ? "delighttechpro@gmail.com" : label}<ArrowUpRight className="ml-auto h-4 w-4 shrink-0" /></a>
+            ))}
+          </div>
         </Reveal>
         <Reveal delay={120} className="lg:col-span-7">
           <div className="rounded-[2rem] bg-background p-8 text-foreground md:p-12">

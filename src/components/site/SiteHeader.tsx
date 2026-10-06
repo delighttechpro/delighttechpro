@@ -3,10 +3,11 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Cta } from "./ui";
+import logo from "@/assets/delighttech-logo.png.asset.json";
 
 const links = [
   { to: "/services", label: "Services" },
-  { to: "/work", label: "Work" },
+  { to: "/work", label: "Portfolio" },
   { to: "/process", label: "Process" },
   { to: "/about", label: "About" },
   { to: "/insights", label: "Insights" },
@@ -14,9 +15,8 @@ const links = [
 
 export function Logo({ className }: { className?: string }) {
   return (
-    <Link to="/" className={cn("flex items-center gap-2 font-display text-lg font-semibold tracking-tight", className)}>
-      <span className="grid h-7 w-7 place-items-center rounded-md bg-primary text-sm font-bold text-primary-foreground">D</span>
-      DelighTech<span className="text-primary">Pro</span>
+    <Link to="/" aria-label="DelightTech Pro home" className={cn("inline-flex shrink-0 items-center", className)}>
+      <img src={logo.url} alt="DelightTech Pro" width={1475} height={308} className="h-auto w-40 object-contain lg:w-48" />
     </Link>
   );
 }
@@ -39,7 +39,7 @@ export function SiteHeader() {
       <div
         className={cn(
           "container-site flex h-16 items-center justify-between rounded-full text-ink-foreground transition-all duration-500",
-          scrolled ? "bg-ink/85 shadow-lift backdrop-blur-md" : "bg-transparent",
+          scrolled ? "bg-ink/95 shadow-lift backdrop-blur-md" : "bg-ink/95",
         )}
       >
         <Logo />

@@ -31,7 +31,7 @@ type CtaProps = { to: string; children: ReactNode; variant?: "primary" | "ghost"
 
 const variants = {
   primary: "bg-primary text-primary-foreground hover:glow-primary",
-  dark: "bg-ink text-ink-foreground hover:bg-foreground",
+  dark: "bg-primary text-primary-foreground hover:bg-primary/90",
   ghost: "border border-foreground/20 text-foreground hover:border-foreground",
   outlineInk: "border border-ink-border text-ink-foreground hover:border-ink-foreground",
 };
