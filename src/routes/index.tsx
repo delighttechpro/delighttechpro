@@ -5,6 +5,7 @@ import hero from "@/assets/hero-ecosystem.jpg";
 import { Cta, CtaBand, Eyebrow, Reveal, SectionHead, seo } from "@/components/site/ui";
 import { journey, process, services } from "@/components/site/data";
 import { cn } from "@/lib/utils";
+import { PortfolioSection, SalesProofSection, TestimonialsSection } from "@/components/site/ProofSections";
 
 export const Route = createFileRoute("/")({
   head: () =>
@@ -25,7 +26,9 @@ function Home() {
       <ShopifySection />
       <GrowthSection />
       <ProcessSection />
-      <WorkSection />
+      <PortfolioSection />
+      <SalesProofSection />
+      <TestimonialsSection />
       <WhySection />
       <CtaBand />
     </>
@@ -84,7 +87,8 @@ function Trust() {
 
 function ServicesExplorer() {
   const [active, setActive] = useState(0);
-  const s = services[active] ?? services[0]!;
+   const s = services[active] ?? services[0];
+   if (!s) return null;
   return (
     <section className="container-site py-24 md:py-36">
       <SectionHead eyebrow="Services" title="Everything your eCommerce brand needs to grow." intro="One team across the full lifecycle — from the first line of code to the hundredth campaign." />
@@ -219,35 +223,6 @@ function ProcessSection() {
             </div>
           </Reveal>
         ))}
-      </div>
-    </section>
-  );
-}
-
-function WorkSection() {
-  return (
-    <section className="bg-ink py-24 text-ink-foreground md:py-36">
-      <div className="container-site">
-        <div className="flex flex-wrap items-end justify-between gap-8">
-          <Reveal>
-            <Eyebrow className="text-ink-muted">Work</Eyebrow>
-            <h2 className="mt-5 text-5xl font-semibold md:text-7xl">Built to perform.</h2>
-          </Reveal>
-          <Cta to="/work" variant="outlineInk">View Our Work</Cta>
-        </div>
-        <div className="mt-16 grid gap-6 md:grid-cols-2">
-          {[1, 2].map((n) => (
-            <Reveal key={n} delay={n * 100}>
-              <div className="group flex aspect-[4/3] flex-col justify-between rounded-[2rem] border border-dashed border-ink-border bg-ink-card p-8 transition-colors hover:border-primary">
-                <span className="eyebrow text-primary">Case study 0{n} — coming soon</span>
-                <div>
-                  <p className="font-display text-3xl font-semibold">Your brand could be here.</p>
-                  <p className="mt-3 text-sm text-ink-muted">Industry · Services · Challenge · Solution · Results — published with verified outcomes only.</p>
-                </div>
-              </div>
-            </Reveal>
-          ))}
-        </div>
       </div>
     </section>
   );

@@ -41,35 +41,34 @@
 
 :root {
   --radius: 0.75rem;
-  /* off-white paper */
-  --background: oklch(0.975 0.006 95);
-  --foreground: oklch(0.17 0.01 260);
-  --card: oklch(0.995 0.003 95);
-  --card-foreground: oklch(0.17 0.01 260);
-  --popover: oklch(0.995 0.003 95);
-  --popover-foreground: oklch(0.17 0.01 260);
-  /* signal lime accent */
-  --primary: oklch(0.89 0.2 125);
-  --primary-foreground: oklch(0.17 0.01 260);
-  --secondary: oklch(0.93 0.006 95);
-  --secondary-foreground: oklch(0.17 0.01 260);
-  --muted: oklch(0.94 0.006 95);
-  --muted-foreground: oklch(0.47 0.01 260);
-  --accent: oklch(0.89 0.2 125);
-  --accent-foreground: oklch(0.17 0.01 260);
+  /* Exact rendered Whyte Team palette. */
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.22 0.03 155);
+  --card: oklch(1 0 0);
+  --card-foreground: var(--foreground);
+  --popover: var(--card);
+  --popover-foreground: var(--foreground);
+  --primary: oklch(0.47 0.115 149);
+  --primary-foreground: oklch(0.99 0.01 150);
+  --secondary: oklch(0.96 0.018 150);
+  --secondary-foreground: oklch(0.33 0.075 152);
+  --muted: oklch(0.965 0.012 150);
+  --muted-foreground: oklch(0.52 0.02 155);
+  --accent: oklch(0.945 0.03 150);
+  --accent-foreground: var(--secondary-foreground);
   --destructive: oklch(0.58 0.22 27);
   --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.88 0.008 95);
-  --input: oklch(0.86 0.008 95);
-  --ring: oklch(0.6 0.18 125);
-  /* deep ink surfaces */
-  --ink: oklch(0.16 0.008 260);
-  --ink-foreground: oklch(0.96 0.006 95);
-  --ink-muted: oklch(0.68 0.01 260);
-  --ink-border: oklch(0.3 0.01 260);
-  --ink-card: oklch(0.2 0.009 260);
-  --shadow-lift: 0 30px 60px -30px oklch(0.17 0.01 260 / 0.35);
-  --glow-primary: 0 0 0 1px oklch(0.89 0.2 125 / 0.4), 0 20px 50px -20px oklch(0.89 0.2 125 / 0.5);
+  --border: oklch(0.915 0.014 150);
+  --input: var(--border);
+  --ring: var(--primary);
+  /* Existing ink roles now use the reference's mint section treatment. */
+  --ink: oklch(0.972 0.019 150);
+  --ink-foreground: var(--foreground);
+  --ink-muted: var(--muted-foreground);
+  --ink-border: var(--border);
+  --ink-card: var(--card);
+  --shadow-lift: 0 30px 60px -30px oklch(0.22 0.03 155 / 0.18);
+  --glow-primary: 0 0 0 1px oklch(0.47 0.115 149 / 0.3), 0 16px 36px -18px oklch(0.47 0.115 149 / 0.4);
 }
 
 @layer base {
@@ -87,7 +86,7 @@
   }
   h1, h2, h3, h4 {
     font-family: var(--font-display);
-    letter-spacing: -0.03em;
+    letter-spacing: 0;
     line-height: 1.02;
   }
   ::selection {
