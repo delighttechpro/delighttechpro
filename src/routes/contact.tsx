@@ -68,8 +68,8 @@ function Contact() {
             ) : (
               <form onSubmit={onSubmit} noValidate className="space-y-8">
                 <div className="grid gap-8 sm:grid-cols-2">
-                  <F label="Name *" error={errors.name}><input name="name" className={field} placeholder="Jane Doe" /></F>
-                  <F label="Email *" error={errors.email}><input name="email" type="email" className={field} placeholder="jane@brand.com" /></F>
+                  <F label="Name *" error={errors["name"]}><input name="name" className={field} placeholder="Jane Doe" /></F>
+                  <F label="Email *" error={errors["email"]}><input name="email" type="email" className={field} placeholder="jane@brand.com" /></F>
                   <F label="Company / Brand"><input name="company" className={field} placeholder="Brand name" /></F>
                   <F label="Website"><input name="website" className={field} placeholder="yourstore.com" /></F>
                 </div>
@@ -105,7 +105,7 @@ function Contact() {
   );
 }
 
-function F({ label, error, children }: { label: string; error?: string; children: React.ReactNode }) {
+function F({ label, error, children }: { label: string; error?: string | undefined; children: React.ReactNode }) {
   return (
     <label className="block">
       <span className="eyebrow text-muted-foreground">{label}</span>
