@@ -2,6 +2,12 @@ import salesDashboard from "@/assets/sales-proof-2.png.asset.json";
 import salesOrders from "@/assets/sales-proof-3.png.asset.json";
 import video1 from "@/assets/shopify-sales-proof-1.mp4.asset.json";
 import webm1 from "@/assets/sales-proof-1.webm.asset.json";
+import webm2 from "@/assets/sales-proof-2.webm.asset.json";
+import webm3 from "@/assets/sales-proof-3.webm.asset.json";
+import webm4 from "@/assets/sales-proof-4.webm.asset.json";
+import webm5 from "@/assets/sales-proof-5.webm.asset.json";
+import webm6 from "@/assets/sales-proof-6.webm.asset.json";
+import webm7 from "@/assets/sales-proof-7.webm.asset.json";
 import poster1 from "@/assets/sales-video-1.jpg.asset.json";
 import video2 from "@/assets/shopify-sales-proof-2.mp4.asset.json";
 import poster2 from "@/assets/sales-video-2.jpg.asset.json";
@@ -23,10 +29,10 @@ export const salesImages = [
 
 export const salesVideos = [
   { src: video1.url, webm: webm1.url, poster: poster1.url, title: "Shopify sales recording 01" },
-  { src: video2.url, poster: poster2.url, title: "Shopify sales recording 02" },
-  { src: video3.url, poster: poster3.url, title: "Shopify sales recording 03" },
-  { src: video4.url, poster: poster4.url, title: "Shopify sales recording 04" },
-  { src: video5.url, poster: poster5.url, title: "Shopify sales recording 05" },
-  { src: video6.url, poster: poster6.url, title: "Shopify sales recording 06" },
-  { src: video7.url, poster: poster7.url, title: "Shopify sales recording 07" },
+  { src: video2.url, webm: webm2.url, poster: poster2.url, title: "Shopify sales recording 02" },
+  { src: video3.url, webm: webm3.url, poster: poster3.url, title: "Shopify sales recording 03" },
+  { src: video4.url, webm: webm4.url, poster: poster4.url, title: "Shopify sales recording 04" },
+  { src: video5.url, webm: webm5.url, poster: poster5.url, title: "Shopify sales recording 05" },
+  { src: video6.url, webm: webm6.url, poster: poster6.url, title: "Shopify sales recording 06" },
+  { src: video7.url, webm: webm7.url, poster: poster7.url, title: "Shopify sales recording 07" },
 ];
