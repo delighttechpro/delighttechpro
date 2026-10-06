@@ -61,6 +61,7 @@ export function SalesProofSection() {
             <Reveal key={item.src}>
               <figure className="overflow-hidden rounded-lg border border-border bg-card">
                 <video controls playsInline preload="none" poster={item.poster} aria-label={item.title} className="aspect-video w-full bg-muted object-contain">
+                  {item.webm && <source src={item.webm} type="video/webm" />}
                   <source src={item.src} type="video/mp4" />
                   <a href={item.src}>Open video</a>
                 </video>

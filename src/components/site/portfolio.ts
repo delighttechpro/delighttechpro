@@ -5,13 +5,13 @@ import store4 from "@/assets/portfolio-store-4.jpg.asset.json";
 import store5 from "@/assets/portfolio-store-5.jpg.asset.json";
 import store6 from "@/assets/portfolio-store-6.jpg.asset.json";
 import store7 from "@/assets/portfolio-store-7.jpg.asset.json";
-import store8 from "@/assets/portfolio-brand-8.jpg.asset.json";
+import store8 from "@/assets/portfolio-product-8.jpg.asset.json";
 import store9 from "@/assets/portfolio-store-9.jpg.asset.json";
 import store10 from "@/assets/portfolio-store-10.jpg.asset.json";
 import store11 from "@/assets/portfolio-store-11.jpg.asset.json";
 import store12 from "@/assets/portfolio-store-12.jpg.asset.json";
 import store13 from "@/assets/portfolio-store-13.jpg.asset.json";
-import store14 from "@/assets/portfolio-brand-14.jpg.asset.json";
+import store14 from "@/assets/portfolio-product-14.jpg.asset.json";
 import store15 from "@/assets/portfolio-store-15.jpg.asset.json";
 
 export const portfolio = [
