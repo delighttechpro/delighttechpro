@@ -17,5 +17,6 @@
 - Render the Live Chat contact chooser in the root layout using the shared social links so every content page offers the same contact options.
 - Collect client review drafts through an explicit email handoff and publication consent; never display submitted text as approved feedback automatically.
 - Combine supplied review datasets newest-first in the shared review section and derive category counts from them; reuse pagination across home, work and the dedicated Reviews page.
+- Attach supplied review portraits before filtering and pagination so each photo remains associated with the same review.
 - Derive the favicon from the icon portion of the uploaded brand asset so it stays consistent with the site identity.
 - Derive sitemap entries from explicit per-route staticData.sitemap decisions using the shared sitemap helper; this keeps public URLs aligned with the router.
