@@ -6,7 +6,7 @@ export { ClientReviews as TestimonialsSection } from "./ClientReviews";
 
 export function PortfolioSection() {
   return (
-    <section className="bg-ink py-24 text-ink-foreground md:py-32" aria-labelledby="portfolio-heading">
+    <section className="bg-ink py-12 text-ink-foreground md:py-16" aria-labelledby="portfolio-heading">
       <div className="container-site">
         <div className="flex flex-wrap items-end justify-between gap-8">
           <Reveal>
@@ -16,7 +16,7 @@ export function PortfolioSection() {
           </Reveal>
           <Cta to="/contact" variant="outlineInk">Start Your Project</Cta>
         </div>
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {portfolio.map((store, i) => (
             <Reveal key={store.url} delay={(i % 3) * 60}>
               <a href={store.url} target="_blank" rel="noopener noreferrer" aria-label={`Visit ${store.name} store (opens in a new tab)`} className="group block h-full overflow-hidden rounded-lg border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring">
@@ -38,14 +38,14 @@ export function PortfolioSection() {
 
 export function SalesProofSection() {
   return (
-    <section className="bg-background py-24 md:py-32" aria-labelledby="sales-heading">
+    <section className="bg-background py-12 md:py-16" aria-labelledby="sales-heading">
       <div className="container-site">
         <Reveal>
           <Eyebrow>Sales Proof</Eyebrow>
           <h2 id="sales-heading" className="mt-5 text-4xl font-semibold md:text-6xl">Behind the storefront.</h2>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground">Real store recordings. Tangible sales activity. See the results behind the work.</p>
         </Reveal>
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {salesVideos.map((item) => (
             <Reveal key={item.src}>
               <figure className="overflow-hidden rounded-lg border border-border bg-card">
@@ -59,7 +59,7 @@ export function SalesProofSection() {
             </Reveal>
           ))}
         </div>
-        <p className="mt-6 text-xs text-muted-foreground">Screenshots and recordings supplied by DelightTech Pro. Results vary by store and period; past performance is not a guarantee.</p>
+        <p className="mt-6 max-w-3xl border-l-2 border-primary pl-4 text-sm leading-relaxed text-foreground">Our sales commitment: when we complete the agreed store improvements and marketing work together, we commit to generating sales for your brand. Your sales volume depends on your store, offer and campaigns.</p>
       </div>
     </section>
   );

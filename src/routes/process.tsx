@@ -14,7 +14,7 @@ function Page() {
       <PageHero eyebrow="Process" title="A better way to build and grow eCommerce." intro="Six stages, one team, no handoffs between strangers.">
         <Cta to="/contact">Start a Project</Cta>
       </PageHero>
-      <section className="container-site py-24">
+      <section className="container-site py-12">
         <div className="relative border-l border-border pl-8 md:pl-16">
           {process.map((p, i) => (
             <Reveal key={p.num} delay={i * 40} className="relative pb-16 last:pb-0">

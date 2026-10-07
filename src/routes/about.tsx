@@ -20,7 +20,7 @@ function Page() {
       <PageHero eyebrow="About" title="6+ years. One focus: your growth." intro="DelightTech Pro brings over 6 years of hands-on Shopify and eCommerce experience, delivering tangible results through connected development, conversion optimization and marketing." >
         <Cta to="/contact">Book a Consultation</Cta>
       </PageHero>
-      <section className="container-site grid gap-6 py-24 md:grid-cols-2">
+      <section className="container-site grid gap-6 py-12 md:grid-cols-2">
         {blocks.map(([t, d], i) => (
           <Reveal key={t} delay={i * 60} className="rounded-[2rem] bg-card p-10">
             <p className="eyebrow text-muted-foreground">{t}</p>
@@ -28,7 +28,7 @@ function Page() {
           </Reveal>
         ))}
       </section>
-      <section className="container-site pb-24">
+      <section className="container-site pb-12">
         <SectionHead eyebrow="Our focus" title="Built around the eCommerce journey." intro="DelightTech Pro is an end-to-end Shopify and eCommerce growth partner. Our work connects strategy, store development, launch, optimization, marketing and scaling rather than treating each as a separate project." />
         <Reveal className="mt-10 space-y-6 text-lg text-muted-foreground">
           <p>For new founders, that means shaping the store around the offer, the customer and the buying journey before launch. For existing Shopify businesses, it means looking at design, usability, traffic and conversion together to identify what needs attention.</p>

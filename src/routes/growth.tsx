@@ -21,7 +21,7 @@ function Page() {
       <PageHero eyebrow="eCommerce Growth" title="Traffic is only the beginning." intro="Marketing that's connected to the store it sends people to. We plan, run and optimize every stage of the customer journey.">
         <Cta to="/contact">Get an eCommerce Audit</Cta>
       </PageHero>
-      <section className="container-site py-24 md:py-32">
+      <section className="container-site py-12 md:py-16">
         <SectionHead eyebrow="The growth chain" title="Five stages. One system." />
         <div className="mt-16 space-y-4">
           {stages.map(([t, d], i) => (

@@ -16,7 +16,7 @@ const nav = [
 export function SiteFooter() {
   return (
     <footer className="bg-ink text-ink-foreground">
-      <div className="container-site grid gap-12 py-20 md:grid-cols-12">
+      <div className="container-site grid gap-12 py-12 md:grid-cols-12">
         <div className="md:col-span-5">
           <Logo />
           <p className="mt-6 max-w-sm text-ink-muted">Shopify & eCommerce development, optimization and growth.</p>

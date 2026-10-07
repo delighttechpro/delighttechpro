@@ -26,8 +26,6 @@ function Home() {
       <OnePartner />
       <PortfolioSection />
       <SalesProofSection />
-      <ShopifySection />
-      <GrowthSection />
       <ProcessSection />
       <TestimonialsSection />
       <WhySection />
@@ -56,7 +54,7 @@ function Hero() {
             <Cta to="/services" variant="outlineInk">Explore Our Services</Cta>
           </div>
         </Reveal>
-        <Reveal delay={300} className="mt-12 border-y border-ink-border md:mt-16">
+        <Reveal delay={300} className="mt-12 border-y border-ink-border md:mt-10">
           <div className="grid divide-y divide-ink-border md:grid-cols-3 md:divide-x md:divide-y-0">
             {[
               { Icon: ShoppingBag, title: "Build a store that sells", detail: "Shopify design & development", num: "01" },
@@ -100,9 +98,9 @@ function ServicesExplorer() {
    const s = services[active] ?? services[0];
    if (!s) return null;
   return (
-    <section className="container-site py-24 md:py-36">
+    <section className="container-site py-12 md:py-16">
       <SectionHead eyebrow="Services" title="Everything your eCommerce brand needs to grow." intro="One team across the full lifecycle — from the first line of code to the hundredth campaign." />
-      <Reveal className="mt-16 grid gap-6 lg:grid-cols-12">
+      <Reveal className="mt-10 grid gap-6 lg:grid-cols-12">
         <div className="flex flex-col lg:col-span-5">
           {services.map((sv, i) => (
             <button
@@ -143,7 +141,7 @@ function ServicesExplorer() {
 
 function OnePartner() {
   return (
-    <section className="bg-ink py-24 text-ink-foreground md:py-36">
+    <section className="bg-ink py-12 text-ink-foreground md:py-16">
       <div className="container-site">
         <Reveal className="max-w-4xl">
           <Eyebrow className="text-ink-muted">Why one partner</Eyebrow>
@@ -154,11 +152,11 @@ function OnePartner() {
             <p className="mt-3 text-ink-muted">Sales are our commitment when we complete the agreed store improvements and marketing work together. We don't promise a fixed sales amount — the volume depends on your store, offer and campaigns.</p>
           </div>
         </Reveal>
-        <div className="mt-20 grid gap-px overflow-hidden rounded-[2rem] bg-ink-border sm:grid-cols-2 lg:grid-cols-6">
+        <div className="mt-10 grid gap-px overflow-hidden rounded-[2rem] bg-ink-border sm:grid-cols-2 lg:grid-cols-6">
           {journey.map((j, i) => (
             <Reveal key={j.num} delay={i * 80} className="group bg-ink p-7 transition-colors hover:bg-ink-card">
               <p className="eyebrow text-primary">{j.num}</p>
-              <p className="mt-16 font-display text-2xl font-semibold">{j.name}</p>
+              <p className="mt-10 font-display text-2xl font-semibold">{j.name}</p>
               <p className="mt-3 text-sm text-ink-muted">{j.text}</p>
               <div className="mt-6 h-0.5 w-8 bg-primary transition-all duration-500 group-hover:w-full" />
             </Reveal>
@@ -169,65 +167,14 @@ function OnePartner() {
   );
 }
 
-function ShopifySection() {
-  const pillars = ["Brand", "User experience", "Conversion", "Performance", "Scalability", "Mobile experience"];
-  return (
-    <section className="container-site grid gap-16 py-24 md:py-36 lg:grid-cols-2">
-      <SectionHead eyebrow="Shopify Development" title="Shopify stores built for more than just looking good." intro="Beautiful is the baseline. Every store we build is engineered around the things that move revenue." />
-      <Reveal className="flex flex-col justify-end">
-        <div className="grid grid-cols-2 gap-3">
-          {pillars.map((p, i) => (
-            <div key={p} className="rounded-2xl border border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lift">
-              <span className="eyebrow text-muted-foreground">0{i + 1}</span>
-              <p className="mt-6 font-display text-xl font-semibold">{p}</p>
-            </div>
-          ))}
-        </div>
-        <div className="mt-8">
-          <Cta to="/shopify-development" variant="dark">Explore Shopify Development</Cta>
-        </div>
-      </Reveal>
-    </section>
-  );
-}
-
-function GrowthSection() {
-  const flow = ["Traffic", "Experience", "Conversion", "Retention", "Growth"];
-  return (
-    <section className="bg-secondary py-24 md:py-36">
-      <div className="container-site">
-        <SectionHead eyebrow="Marketing & Growth" title="Traffic is only the beginning." intro="Visitors aren't enough. Your store has to turn them into customers — and customers into repeat buyers. We work the whole chain." />
-        <Reveal className="mt-16 flex flex-col gap-3 md:flex-row md:items-stretch">
-          {flow.map((f, i) => (
-            <div key={f} className="flex flex-1 items-center gap-3 md:flex-col md:items-stretch">
-              <div className={cn("flex flex-1 flex-col justify-between rounded-2xl p-6 md:min-h-48", i === flow.length - 1 ? "bg-primary text-primary-foreground" : "bg-card")}>
-                <span className="eyebrow opacity-60">Step {i + 1}</span>
-                <span className="mt-6 font-display text-2xl font-semibold">{f}</span>
-              </div>
-            </div>
-          ))}
-        </Reveal>
-        <Reveal className="mt-12 flex flex-wrap items-center justify-between gap-6">
-          <div className="flex flex-wrap gap-2">
-            {["Paid advertising", "SEO", "Email marketing", "Retargeting", "CRO", "Analytics", "Retention"].map((t) => (
-              <span key={t} className="rounded-full border border-foreground/15 px-4 py-2 text-sm">{t}</span>
-            ))}
-          </div>
-          <Cta to="/growth" variant="dark">Explore Growth Services</Cta>
-        </Reveal>
-      </div>
-    </section>
-  );
-}
-
 function ProcessSection() {
   return (
-    <section className="container-site py-24 md:py-36">
+    <section className="container-site py-12 md:py-16">
       <div className="flex flex-wrap items-end justify-between gap-8">
         <SectionHead eyebrow="Process" title="A better way to build and grow eCommerce." />
         <Cta to="/process" variant="ghost">See How We Work</Cta>
       </div>
-      <div className="mt-16">
+      <div className="mt-10">
         {process.map((p, i) => (
           <Reveal key={p.num} delay={i * 50}>
             <div className="group grid items-baseline gap-4 border-t border-border py-8 transition-colors hover:bg-secondary md:grid-cols-12 md:px-4">
@@ -252,9 +199,9 @@ function WhySection() {
     ["Long-term partnership", "We stay after launch to keep improving and scaling."],
   ];
   return (
-    <section className="container-site py-24 md:py-36">
+    <section className="container-site py-12 md:py-16">
       <SectionHead eyebrow="Why DelighTech Pro" title="Expertise, clarity and outcomes." />
-      <div className="mt-16 grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-10 grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
         {points.map(([t, d], i) => (
           <Reveal key={t} delay={i * 60}>
             <div className="h-1 w-10 bg-primary" />
