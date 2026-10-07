@@ -7,7 +7,7 @@ export const Route = createFileRoute("/privacy")({
   component: () => (
     <>
       <PageHero eyebrow="Legal" title="Privacy Policy" />
-      <section className="container-site max-w-3xl space-y-10 py-20 text-lg leading-relaxed text-muted-foreground">
+      <section className="container-site max-w-3xl space-y-10 py-12 text-lg leading-relaxed text-muted-foreground">
         <div className="border-l-2 border-primary pl-6">
           <h2 className="text-2xl font-semibold text-foreground">Draft — pending review and approval</h2>
           <p className="mt-3">This policy is a professional draft for DelightTech Pro to review before publication. It is not a representation that legal review has been completed. Effective date: [Approval Date]. Legal entity and business address: [Legal Entity Name and Address].</p>

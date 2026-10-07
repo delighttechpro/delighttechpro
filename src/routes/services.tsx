@@ -15,7 +15,7 @@ function Services() {
       <PageHero eyebrow="Services" title="One growth system. Five connected disciplines." intro="Each service is strong on its own. Together, they compound.">
         <Cta to="/contact">Start a Project</Cta>
       </PageHero>
-      <section className="container-site py-24">
+      <section className="container-site py-12">
         {services.map((s, i) => (
           <Reveal key={s.id}>
             <div id={s.id} className="grid gap-10 border-t border-border py-16 lg:grid-cols-12">
@@ -37,7 +37,7 @@ function Services() {
           </Reveal>
         ))}
       </section>
-      <section className="bg-secondary py-24">
+      <section className="bg-secondary py-12">
         <div className="container-site grid gap-10 md:grid-cols-2">
           <Reveal>
             <h2 className="text-4xl font-semibold md:text-5xl">Custom engagements.</h2>

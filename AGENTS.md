@@ -13,7 +13,7 @@
 - Reuse shared portfolio and sales-proof sections on the home and work pages so client links and uploaded media stay consistent.
 - Store uploaded media and captured portfolio images as Lovable asset pointers to keep binaries outside the source repository.
 - Keep social contact links in one shared module so footer and contact page always agree.
-- Render the WhatsApp shortcut in the root layout using the shared social link so every content page opens the same contact.
+- Render the Live Chat contact chooser in the root layout using the shared social links so every content page offers the same contact options.
 - Collect client review drafts through an explicit email handoff and publication consent; never display submitted text as approved feedback automatically.
 - Derive the favicon from the icon portion of the uploaded brand asset so it stays consistent with the site identity.
 - Derive sitemap entries from explicit per-route staticData.sitemap decisions using the shared sitemap helper; this keeps public URLs aligned with the router.

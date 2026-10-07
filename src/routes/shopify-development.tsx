@@ -23,7 +23,7 @@ function Page() {
         <Cta to="/contact">Start a Project</Cta>
         <Cta to="/work" variant="outlineInk">View Our Work</Cta>
       </PageHero>
-      <section className="container-site py-24 md:py-32">
+      <section className="container-site py-12 md:py-16">
         <SectionHead eyebrow="Capabilities" title="Everything a serious Shopify store needs." />
         <div className="mt-16 grid gap-px overflow-hidden rounded-[2rem] bg-border md:grid-cols-2 lg:grid-cols-3">
           {caps.map(([t, d], i) => (

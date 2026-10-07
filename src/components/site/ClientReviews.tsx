@@ -27,7 +27,7 @@ export function ClientReviews() {
   }
 
   return (
-    <section className="border-y border-border bg-ink py-24 md:py-32" aria-labelledby="reviews-heading">
+    <section className="border-y border-border bg-ink py-12 md:py-16" aria-labelledby="reviews-heading">
       <div className="container-site">
         <Reveal><Eyebrow>Client Feedback</Eyebrow><h2 id="reviews-heading" className="mt-5 text-4xl font-semibold md:text-6xl">What Our Clients Say</h2></Reveal>
         <Reveal className="mt-12">

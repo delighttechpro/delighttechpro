@@ -63,7 +63,7 @@ export function Eyebrow({ children, className }: { children: ReactNode; classNam
 
 export function PageHero({ eyebrow, title, intro, children }: { eyebrow: string; title: ReactNode; intro?: string; children?: ReactNode }) {
   return (
-    <section className="relative overflow-hidden bg-ink pb-20 pt-40 text-ink-foreground md:pb-28 md:pt-48">
+    <section className="relative overflow-hidden bg-ink pb-12 pt-32 text-ink-foreground md:pb-16 md:pt-36">
       <div className="grid-lines pointer-events-none absolute inset-0 opacity-40" />
       <div className="container-site relative">
         <Reveal>
@@ -79,7 +79,7 @@ export function PageHero({ eyebrow, title, intro, children }: { eyebrow: string;
 
 export function CtaBand({ title = "Let's build something that grows.", text = "Tell us where your store is today and where you want it to go. We'll map the fastest path there." }: { title?: string; text?: string }) {
   return (
-    <section className="container-site py-24 md:py-32">
+    <section className="container-site py-12 md:py-16">
       <Reveal>
         <div className="relative overflow-hidden rounded-[2rem] bg-primary p-10 text-primary-foreground md:p-16">
           <div className="max-w-3xl">

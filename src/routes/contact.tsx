@@ -48,7 +48,7 @@ function Contact() {
 
   return (
     <section className="bg-ink pt-36 text-ink-foreground md:pt-44">
-      <div className="container-site grid gap-16 pb-24 lg:grid-cols-12">
+      <div className="container-site grid gap-16 pb-12 lg:grid-cols-12">
         <Reveal className="lg:col-span-5">
           <Eyebrow className="text-ink-muted">Contact</Eyebrow>
           <h1 className="mt-6 text-5xl font-semibold md:text-7xl">Let's build something that grows.</h1>

@@ -20,7 +20,7 @@ function Page() {
   return (
     <>
       <PageHero eyebrow="Insights" title="Practical Shopify & eCommerce guidance." intro="Six starting points for planning a store, improving the buying journey and connecting marketing to business performance." />
-      <section className="container-site grid gap-4 py-24 sm:grid-cols-2 lg:grid-cols-3">
+      <section className="container-site grid gap-4 py-12 sm:grid-cols-2 lg:grid-cols-3">
         {guides.map((guide, i) => (
           <Reveal key={guide.title} delay={i * 50} className="flex flex-col rounded-2xl bg-card p-8">
             <span className="eyebrow text-muted-foreground">Practical guide / 0{i + 1}</span>
