@@ -15,8 +15,8 @@
 - [x] Verify sitemap and all 11 pages' metadata; record the sitemap correction.
 
 # Requested presentation updates
-- [ ] Match the reference review presentation without inventing client feedback.
-- [ ] Replace the hero image with a professional service-focused presentation and confident six-plus-years copy.
-- [ ] Move Recent Work after Why One Partner, followed by video-only Sales Proof.
-- [ ] Add site-wide WhatsApp chat with the one-hour response message.
-- [ ] Derive an icon-only favicon from the uploaded logo and verify the changes.
+- [x] Match the reference review form, rating controls and service filters; approved review cards await genuine client feedback.
+- [x] Replace the hero image with a professional service-focused presentation and confident six-plus-years copy; state the user's conditional sales assurance without a fixed amount.
+- [x] Move Recent Work after Why One Partner, followed by video-only Sales Proof.
+- [x] Add site-wide WhatsApp chat with the one-hour response message.
+- [x] Derive an icon-only favicon from the uploaded logo and verify the changes.
