@@ -2,7 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Cta, CtaBand, PageHero, Reveal, SectionHead, seo } from "@/components/site/ui";
 
 export const Route = createFileRoute("/about")({
-  head: () => seo("About DelighTech Pro — Shopify & eCommerce Growth Partner", "DelighTech Pro exists to help businesses turn eCommerce into a stronger growth engine."),
+  staticData: { sitemap: true },
+  head: () => seo("About DelighTech Pro — Shopify & eCommerce Growth Partner", "DelighTech Pro exists to help businesses turn eCommerce into a stronger growth engine.", "/about"),
   component: Page,
 });
 

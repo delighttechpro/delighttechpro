@@ -2,7 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Cta, CtaBand, PageHero, Reveal, SectionHead, seo } from "@/components/site/ui";
 
 export const Route = createFileRoute("/shopify-development")({
-  head: () => seo("Shopify Development & Store Design | DelighTech Pro", "Custom Shopify 2.0 stores, themes, migrations and integrations — designed for conversion, speed and scale."),
+  staticData: { sitemap: true },
+  head: () => seo("Shopify Development & Store Design | DelighTech Pro", "Custom Shopify 2.0 stores, themes, migrations and integrations — designed for conversion, speed and scale.", "/shopify-development"),
   component: Page,
 });
 

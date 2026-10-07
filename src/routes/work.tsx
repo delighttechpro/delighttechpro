@@ -3,7 +3,8 @@ import { Cta, CtaBand, PageHero, seo } from "@/components/site/ui";
 import { PortfolioSection, SalesProofSection, TestimonialsSection } from "@/components/site/ProofSections";
 
 export const Route = createFileRoute("/work")({
-  head: () => seo("Our Portfolio & Recent Work | DelightTech Pro", "Explore 15 client stores in the DelightTech Pro portfolio, alongside Shopify sales screenshots and recordings."),
+  staticData: { sitemap: true },
+  head: () => seo("Our Portfolio & Recent Work | DelightTech Pro", "Explore 15 client stores in the DelightTech Pro portfolio, alongside Shopify sales screenshots and recordings.", "/work"),
   component: Page,
 });
 

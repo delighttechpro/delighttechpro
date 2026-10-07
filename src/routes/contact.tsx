@@ -7,7 +7,8 @@ import { cn } from "@/lib/utils";
 import { socialLinks } from "@/components/site/social";
 
 export const Route = createFileRoute("/contact")({
-  head: () => seo("Start a Project — Contact DelighTech Pro", "Tell us about your Shopify or eCommerce project. Development, CRO, marketing or full growth — let's build something that grows."),
+  staticData: { sitemap: true },
+  head: () => seo("Start a Project — Contact DelighTech Pro", "Tell us about your Shopify or eCommerce project. Development, CRO, marketing or full growth — let's build something that grows.", "/contact"),
   component: Contact,
 });
 

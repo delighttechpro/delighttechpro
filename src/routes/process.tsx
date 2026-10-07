@@ -3,7 +3,8 @@ import { Cta, CtaBand, PageHero, Reveal, seo } from "@/components/site/ui";
 import { process } from "@/components/site/data";
 
 export const Route = createFileRoute("/process")({
-  head: () => seo("Our Process — Discover to Scale | DelighTech Pro", "How DelighTech Pro builds and grows Shopify stores: discover, strategize, build, launch, optimize and scale."),
+  staticData: { sitemap: true },
+  head: () => seo("Our Process — Discover to Scale | DelighTech Pro", "How DelighTech Pro builds and grows Shopify stores: discover, strategize, build, launch, optimize and scale.", "/process"),
   component: Page,
 });
 

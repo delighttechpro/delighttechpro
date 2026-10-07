@@ -8,10 +8,12 @@ import { cn } from "@/lib/utils";
 import { PortfolioSection, SalesProofSection, TestimonialsSection } from "@/components/site/ProofSections";
 
 export const Route = createFileRoute("/")({
+  staticData: { sitemap: true },
   head: () =>
     seo(
       "DelighTech Pro — Shopify Development & eCommerce Growth Agency",
       "We build Shopify stores, then we make them grow. Shopify development, conversion optimization and marketing under one roof.",
+      "/",
     ),
   component: Home,
 });

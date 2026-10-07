@@ -4,7 +4,8 @@ import { Cta, CtaBand, PageHero, Reveal, seo } from "@/components/site/ui";
 import { services } from "@/components/site/data";
 
 export const Route = createFileRoute("/services")({
-  head: () => seo("Services — Shopify, CRO & eCommerce Marketing | DelighTech Pro", "Shopify development, eCommerce development, conversion optimization, digital marketing and growth strategy from one partner."),
+  staticData: { sitemap: true },
+  head: () => seo("Services — Shopify, CRO & eCommerce Marketing | DelighTech Pro", "Shopify development, eCommerce development, conversion optimization, digital marketing and growth strategy from one partner.", "/services"),
   component: Services,
 });
 
