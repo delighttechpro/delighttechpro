@@ -32,6 +32,7 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
+  --color-rating: var(--rating);
   --color-ink: var(--ink);
   --color-ink-foreground: var(--ink-foreground);
   --color-ink-muted: var(--ink-muted);
@@ -61,6 +62,7 @@
   --border: oklch(0.915 0.014 150);
   --input: var(--border);
   --ring: var(--primary);
+  --rating: oklch(0.66 0.145 80);
   /* Existing ink roles now use the reference's mint section treatment. */
   --ink: oklch(0.972 0.019 150);
   --ink-foreground: var(--foreground);
