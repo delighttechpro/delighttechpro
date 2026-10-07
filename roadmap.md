@@ -1,7 +1,7 @@
 # Website updates
 - [x] Make the Live Chat launcher icon-only and verify the contact chooser.
 - [x] Add a professional FAQ section and verify expand/collapse.
-- [ ] Requested review totals and client photos: blocked pending genuine, approved feedback and photos; do not fabricate.
+- [ ] Add all 358 supplied reviews after the user's confirmation of authenticity, with actual category totals, gold stars and initials for missing photos; verify filters and pagination.
 - [x] Match reference website colors while preserving layout.
 - [x] Add uploaded brand logo.
 - [x] Add 15 linked client stores to homepage and portfolio page.
@@ -14,7 +14,7 @@
 - [x] Install a route-derived sitemap and reference it from robots.txt.
 - [x] Replace About and Insights placeholders with useful, factual content.
 - [x] Write complete legal drafts and 12 clearly marked review placeholders as requested.
-- [ ] Final legal approval and genuine testimonials: awaiting the user's approved policies and client feedback; composite SEO content finding remains unresolved.
+- [ ] Final legal approval: awaiting the user's approved policies.
 - [x] Verify sitemap and all 11 pages' metadata; record the sitemap correction.
 
 # Requested presentation updates
