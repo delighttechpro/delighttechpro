@@ -3,7 +3,10 @@ import { Star, Mail, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Eyebrow, Reveal } from "./ui";
 import { socialLinks } from "./social";
-import publishedReviews from "./published-reviews.json";
+import existingReviews from "./published-reviews.json";
+import additionalReviews from "./additional-reviews.json";
+
+const publishedReviews = [...additionalReviews, ...existingReviews];
 
 const reviewServices = ["Shopify Development", "Conversion Optimization", "Marketing & Growth", "Store Optimization"];
 const inputClass = "mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-ring";
