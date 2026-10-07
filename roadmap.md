@@ -8,7 +8,8 @@
 - [x] Verify pages, links, media, and mobile layout.
 
 # SEO corrections
-- [ ] Install a route-derived sitemap and reference it from robots.txt.
-- [ ] Replace About and Insights placeholders with useful, factual content.
-- [ ] Resolve legal and testimonial content: awaiting approved policies and genuine client feedback.
-- [ ] Verify sitemap and page metadata; record completed SEO corrections.
+- [x] Install a route-derived sitemap and reference it from robots.txt.
+- [x] Replace About and Insights placeholders with useful, factual content.
+- [x] Write complete legal drafts and 12 clearly marked review placeholders as requested.
+- [ ] Final legal approval and genuine testimonials: awaiting the user's approved policies and client feedback; composite SEO content finding remains unresolved.
+- [x] Verify sitemap and all 11 pages' metadata; record the sitemap correction.
