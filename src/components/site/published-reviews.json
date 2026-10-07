@@ -1,0 +1,2508 @@
+[
+  {
+    "id": "1",
+    "rating": 5,
+    "name": "Jessica Scott",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The store structure is clearer and the customer experience feels more modern. Everything was handled in a structured way, which gave us confidence throughout the project. It was a strong improvement for our business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "2",
+    "rating": 5,
+    "name": "Mia Hunt",
+    "text": "The team made the whole process feel much simpler than we expected. The store now feels more streamlined without losing the personality of the brand. The recommendations were easy to understand and the implementation was thoughtful. The final result feels like a meaningful step forward.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "3",
+    "rating": 5,
+    "name": "Oliver Holmes",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The store now feels more streamlined without losing the personality of the brand. They paid attention to the small details that we had overlooked internally. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "4",
+    "rating": 5,
+    "name": "Evelyn Cole",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The store structure is clearer and the customer experience feels more modern. Everything was handled in a structured way, which gave us confidence throughout the project. We would definitely recommend the team to another ecommerce business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "5",
+    "rating": 5,
+    "name": "Alice Cooper",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The recommendations gave our team a useful framework for the next stage of growth. They brought useful ideas to the table while still respecting our brand and existing setup. Overall, it was a very positive experience.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "6",
+    "rating": 5,
+    "name": "Maya Dixon",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The recommendations gave our team a useful framework for the next stage of growth. The improvements are noticeable across the customer journey, particularly on mobile. We are glad we chose to have the work handled professionally.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "7",
+    "rating": 4,
+    "name": "Freya Harris",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The changes made the path from product discovery to checkout much clearer. The improvements are noticeable across the customer journey, particularly on mobile. We would happily work with them again.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "8",
+    "rating": 4,
+    "name": "Joseph Griffiths",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The store structure is clearer and the customer experience feels more modern. They paid attention to the small details that we had overlooked internally. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "9",
+    "rating": 5,
+    "name": "Benjamin Mills",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The team identified friction points that our own team had been missing. We especially liked the practical approach rather than being pushed into unnecessary changes. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "10",
+    "rating": 5,
+    "name": "Charlotte Green",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The revised customer journey feels more natural and easier to follow. The team was responsive when we had questions and made revisions without making the process difficult. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "11",
+    "rating": 5,
+    "name": "Elsie Bailey",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. We now have a more practical growth plan instead of trying to do everything at once. The improvements are noticeable across the customer journey, particularly on mobile. Overall, it was a very positive experience.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "12",
+    "rating": 5,
+    "name": "Jack Bailey",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The new theme gives the brand a much stronger presence. The improvements are noticeable across the customer journey, particularly on mobile. It was a strong improvement for our business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "13",
+    "rating": 5,
+    "name": "Harper Thompson",
+    "text": "The communication was clear, practical, and consistent throughout the project. The recommendations gave our team a useful framework for the next stage of growth. We came away with a much clearer understanding of what our store needed next. We are pleased with the result and the support we received.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "14",
+    "rating": 5,
+    "name": "Sienna Scott",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The revised customer journey feels more natural and easier to follow. The team was responsive when we had questions and made revisions without making the process difficult. We would definitely recommend the team to another ecommerce business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "15",
+    "rating": 5,
+    "name": "Ava Owen",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The store now feels more streamlined without losing the personality of the brand. Everything was handled in a structured way, which gave us confidence throughout the project. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "16",
+    "rating": 5,
+    "name": "Archie Roberts",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The recommendations gave our team a useful framework for the next stage of growth. We especially liked the practical approach rather than being pushed into unnecessary changes. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "17",
+    "rating": 4,
+    "name": "Jack Collins",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The recommendations gave our team a useful framework for the next stage of growth. They paid attention to the small details that we had overlooked internally. It was a strong improvement for our business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "18",
+    "rating": 5,
+    "name": "Lucy Cooper",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The revised customer journey feels more natural and easier to follow. They brought useful ideas to the table while still respecting our brand and existing setup. We would happily work with them again.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "19",
+    "rating": 5,
+    "name": "Charlie Cole",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. We now have a more focused product-page and checkout experience. We especially liked the practical approach rather than being pushed into unnecessary changes. We are pleased with the result and the support we received.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "20",
+    "rating": 5,
+    "name": "Chloe Griffiths",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The team identified friction points that our own team had been missing. The recommendations were easy to understand and the implementation was thoughtful. The final result feels like a meaningful step forward.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "21",
+    "rating": 4,
+    "name": "Joseph Davies",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The recommendations gave our team a useful framework for the next stage of growth. They paid attention to the small details that we had overlooked internally. We are pleased with the result and the support we received.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "22",
+    "rating": 5,
+    "name": "Hannah Foster",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The optimization work removed several small frustrations from the shopping experience. We especially liked the practical approach rather than being pushed into unnecessary changes. It was a strong improvement for our business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "23",
+    "rating": 5,
+    "name": "Henry Harris",
+    "text": "The team made the whole process feel much simpler than we expected. The Shopify store now feels much more polished and intentional. They brought useful ideas to the table while still respecting our brand and existing setup. We are glad we chose to have the work handled professionally.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "24",
+    "rating": 5,
+    "name": "Daniel Cooper",
+    "text": "The team made the whole process feel much simpler than we expected. The team identified friction points that our own team had been missing. We came away with a much clearer understanding of what our store needed next. We would happily work with them again.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "25",
+    "rating": 5,
+    "name": "Edward Morris",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The recommendations gave our team a useful framework for the next stage of growth. We especially liked the practical approach rather than being pushed into unnecessary changes. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "26",
+    "rating": 5,
+    "name": "Liam Murphy",
+    "text": "The communication was clear, practical, and consistent throughout the project. We now have a more practical growth plan instead of trying to do everything at once. We came away with a much clearer understanding of what our store needed next. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "27",
+    "rating": 5,
+    "name": "Hannah Murray",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The store is noticeably easier to navigate and feels faster on mobile. Everything was handled in a structured way, which gave us confidence throughout the project. Overall, it was a very positive experience.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "28",
+    "rating": 4,
+    "name": "Evelyn Matthews",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The team identified friction points that our own team had been missing. We came away with a much clearer understanding of what our store needed next. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "29",
+    "rating": 4,
+    "name": "Joseph Evans",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The revised customer journey feels more natural and easier to follow. The team was responsive when we had questions and made revisions without making the process difficult. We would happily work with them again.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "30",
+    "rating": 5,
+    "name": "Leo Fisher",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. We now have a more practical growth plan instead of trying to do everything at once. We came away with a much clearer understanding of what our store needed next. We would definitely recommend the team to another ecommerce business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "31",
+    "rating": 5,
+    "name": "Adam Wood",
+    "text": "The process was straightforward, with helpful updates at each stage. The team helped us connect our marketing activity to clearer commercial goals. We especially liked the practical approach rather than being pushed into unnecessary changes. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "32",
+    "rating": 5,
+    "name": "James Brooks",
+    "text": "The communication was clear, practical, and consistent throughout the project. The store structure is clearer and the customer experience feels more modern. The recommendations were easy to understand and the implementation was thoughtful. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "33",
+    "rating": 5,
+    "name": "Erin Cooper",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. We now have a more practical growth plan instead of trying to do everything at once. They brought useful ideas to the table while still respecting our brand and existing setup. The final result feels like a meaningful step forward.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "34",
+    "rating": 5,
+    "name": "Isla Mitchell",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The new theme gives the brand a much stronger presence. We came away with a much clearer understanding of what our store needed next. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "35",
+    "rating": 4,
+    "name": "Arthur Wilson",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The store now feels more streamlined without losing the personality of the brand. The team was responsive when we had questions and made revisions without making the process difficult. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "36",
+    "rating": 5,
+    "name": "Harry Young",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The Shopify store now feels much more polished and intentional. The recommendations were easy to understand and the implementation was thoughtful. The final result feels like a meaningful step forward.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "37",
+    "rating": 5,
+    "name": "Millie Stone",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The new theme gives the brand a much stronger presence. We especially liked the practical approach rather than being pushed into unnecessary changes. It was a strong improvement for our business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "38",
+    "rating": 5,
+    "name": "Abigail Davies",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The optimization work removed several small frustrations from the shopping experience. They brought useful ideas to the table while still respecting our brand and existing setup. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "39",
+    "rating": 5,
+    "name": "Liam Martin",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The team identified friction points that our own team had been missing. The recommendations were easy to understand and the implementation was thoughtful. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "40",
+    "rating": 5,
+    "name": "Thomas Carter",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The store is noticeably easier to navigate and feels faster on mobile. We especially liked the practical approach rather than being pushed into unnecessary changes. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "41",
+    "rating": 5,
+    "name": "Isla Evans",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The strategy gave us a much clearer picture of where to focus our marketing effort. We especially liked the practical approach rather than being pushed into unnecessary changes. It was a strong improvement for our business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "42",
+    "rating": 5,
+    "name": "Mia White",
+    "text": "The communication was clear, practical, and consistent throughout the project. The cleanup made the catalog and key pages much easier for customers to understand. The improvements are noticeable across the customer journey, particularly on mobile. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "43",
+    "rating": 5,
+    "name": "Alexander Simpson",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The changes made the path from product discovery to checkout much clearer. We came away with a much clearer understanding of what our store needed next. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "44",
+    "rating": 5,
+    "name": "Ava Marshall",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The recommendations gave our team a useful framework for the next stage of growth. They brought useful ideas to the table while still respecting our brand and existing setup. We would definitely recommend the team to another ecommerce business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "45",
+    "rating": 5,
+    "name": "Jacob Dixon",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The store is noticeably easier to navigate and feels faster on mobile. The recommendations were easy to understand and the implementation was thoughtful. Overall, it was a very positive experience.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "46",
+    "rating": 5,
+    "name": "Matilda Knight",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The recommendations gave our team a useful framework for the next stage of growth. The recommendations were easy to understand and the implementation was thoughtful. Overall, it was a very positive experience.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "47",
+    "rating": 5,
+    "name": "Esme Parker",
+    "text": "The team made the whole process feel much simpler than we expected. The recommendations gave our team a useful framework for the next stage of growth. They brought useful ideas to the table while still respecting our brand and existing setup. We would definitely recommend the team to another ecommerce business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "48",
+    "rating": 4,
+    "name": "Leo Mason",
+    "text": "The process was straightforward, with helpful updates at each stage. The changes made the path from product discovery to checkout much clearer. We came away with a much clearer understanding of what our store needed next. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "49",
+    "rating": 4,
+    "name": "Harper Harvey",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The team helped us connect our marketing activity to clearer commercial goals. They paid attention to the small details that we had overlooked internally. We are glad we chose to have the work handled professionally.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "50",
+    "rating": 5,
+    "name": "Reuben Jenkins",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The new theme gives the brand a much stronger presence. The recommendations were easy to understand and the implementation was thoughtful. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "51",
+    "rating": 4,
+    "name": "Joseph Hamilton",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The cleanup made the catalog and key pages much easier for customers to understand. Everything was handled in a structured way, which gave us confidence throughout the project. The final result feels like a meaningful step forward.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "52",
+    "rating": 5,
+    "name": "Sophia Mason",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The store structure is clearer and the customer experience feels more modern. We especially liked the practical approach rather than being pushed into unnecessary changes. We are pleased with the result and the support we received.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "53",
+    "rating": 5,
+    "name": "Ruby Green",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The custom functionality works smoothly and fits our day-to-day workflow. They brought useful ideas to the table while still respecting our brand and existing setup. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "54",
+    "rating": 5,
+    "name": "Teddy Thompson",
+    "text": "The communication was clear, practical, and consistent throughout the project. The strategy gave us a much clearer picture of where to focus our marketing effort. We came away with a much clearer understanding of what our store needed next. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "55",
+    "rating": 5,
+    "name": "Chloe Simpson",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. We now have a more focused product-page and checkout experience. They brought useful ideas to the table while still respecting our brand and existing setup. We are pleased with the result and the support we received.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "56",
+    "rating": 5,
+    "name": "Lily Anderson",
+    "text": "The communication was clear, practical, and consistent throughout the project. The recommendations gave our team a useful framework for the next stage of growth. The improvements are noticeable across the customer journey, particularly on mobile. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "57",
+    "rating": 4,
+    "name": "Imogen Edwards",
+    "text": "The communication was clear, practical, and consistent throughout the project. The store is noticeably easier to navigate and feels faster on mobile. We came away with a much clearer understanding of what our store needed next. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "58",
+    "rating": 4,
+    "name": "Maya Davies",
+    "text": "The communication was clear, practical, and consistent throughout the project. The team helped us connect our marketing activity to clearer commercial goals. They brought useful ideas to the table while still respecting our brand and existing setup. We are pleased with the result and the support we received.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "59",
+    "rating": 5,
+    "name": "Ethan White",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The store is noticeably easier to navigate and feels faster on mobile. The improvements are noticeable across the customer journey, particularly on mobile. We are glad we chose to have the work handled professionally.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "60",
+    "rating": 5,
+    "name": "Theo Anderson",
+    "text": "The communication was clear, practical, and consistent throughout the project. The team identified friction points that our own team had been missing. The recommendations were easy to understand and the implementation was thoughtful. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "61",
+    "rating": 4,
+    "name": "Edward James",
+    "text": "The process was straightforward, with helpful updates at each stage. The new theme gives the brand a much stronger presence. Everything was handled in a structured way, which gave us confidence throughout the project. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "62",
+    "rating": 5,
+    "name": "Sebastian Collins",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The custom functionality works smoothly and fits our day-to-day workflow. The recommendations were easy to understand and the implementation was thoughtful. We would definitely recommend the team to another ecommerce business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "63",
+    "rating": 4,
+    "name": "Sebastian Hughes",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The custom functionality works smoothly and fits our day-to-day workflow. Everything was handled in a structured way, which gave us confidence throughout the project. We would definitely recommend the team to another ecommerce business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "64",
+    "rating": 5,
+    "name": "Willow Dixon",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The optimization work removed several small frustrations from the shopping experience. Everything was handled in a structured way, which gave us confidence throughout the project. Overall, it was a very positive experience.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "65",
+    "rating": 5,
+    "name": "Grace Anderson",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The optimization work removed several small frustrations from the shopping experience. The team was responsive when we had questions and made revisions without making the process difficult. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "66",
+    "rating": 5,
+    "name": "Reuben Murray",
+    "text": "The process was straightforward, with helpful updates at each stage. The team helped us connect our marketing activity to clearer commercial goals. We especially liked the practical approach rather than being pushed into unnecessary changes. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "67",
+    "rating": 5,
+    "name": "Alfie Evans",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The optimization work removed several small frustrations from the shopping experience. They brought useful ideas to the table while still respecting our brand and existing setup. We would definitely recommend the team to another ecommerce business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "68",
+    "rating": 5,
+    "name": "Arthur King",
+    "text": "The process was straightforward, with helpful updates at each stage. The team identified friction points that our own team had been missing. We came away with a much clearer understanding of what our store needed next. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "69",
+    "rating": 4,
+    "name": "Freya Watson",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The strategy gave us a much clearer picture of where to focus our marketing effort. The recommendations were easy to understand and the implementation was thoughtful. We are pleased with the result and the support we received.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "70",
+    "rating": 5,
+    "name": "Max Hunt",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The Shopify store now feels much more polished and intentional. They brought useful ideas to the table while still respecting our brand and existing setup. We would happily work with them again.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "71",
+    "rating": 5,
+    "name": "Erin Carter",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The Shopify store now feels much more polished and intentional. The improvements are noticeable across the customer journey, particularly on mobile. The final result feels like a meaningful step forward.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "72",
+    "rating": 4,
+    "name": "Adam Young",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The revised customer journey feels more natural and easier to follow. Everything was handled in a structured way, which gave us confidence throughout the project. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "73",
+    "rating": 5,
+    "name": "Ava Anderson",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The revised customer journey feels more natural and easier to follow. We especially liked the practical approach rather than being pushed into unnecessary changes. We would definitely recommend the team to another ecommerce business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "74",
+    "rating": 5,
+    "name": "Millie White",
+    "text": "The process was straightforward, with helpful updates at each stage. The recommendations gave our team a useful framework for the next stage of growth. The improvements are noticeable across the customer journey, particularly on mobile. It was a strong improvement for our business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "75",
+    "rating": 4,
+    "name": "Theodore Davies",
+    "text": "The communication was clear, practical, and consistent throughout the project. The strategy gave us a much clearer picture of where to focus our marketing effort. The team was responsive when we had questions and made revisions without making the process difficult. The final result feels like a meaningful step forward.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "76",
+    "rating": 5,
+    "name": "Oscar Mason",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. We now have a more focused product-page and checkout experience. We came away with a much clearer understanding of what our store needed next. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "77",
+    "rating": 5,
+    "name": "Daniel Wood",
+    "text": "The process was straightforward, with helpful updates at each stage. The team helped us connect our marketing activity to clearer commercial goals. Everything was handled in a structured way, which gave us confidence throughout the project. Overall, it was a very positive experience.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "78",
+    "rating": 4,
+    "name": "Amelia Holmes",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The team helped us connect our marketing activity to clearer commercial goals. The improvements are noticeable across the customer journey, particularly on mobile. We are pleased with the result and the support we received.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "79",
+    "rating": 4,
+    "name": "Millie Hall",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The team identified friction points that our own team had been missing. We especially liked the practical approach rather than being pushed into unnecessary changes. Overall, it was a very positive experience.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "80",
+    "rating": 5,
+    "name": "Sienna Bell",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The store now feels more streamlined without losing the personality of the brand. The team was responsive when we had questions and made revisions without making the process difficult. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "81",
+    "rating": 5,
+    "name": "Evie Morris",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The new theme gives the brand a much stronger presence. They brought useful ideas to the table while still respecting our brand and existing setup. We would definitely recommend the team to another ecommerce business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "82",
+    "rating": 5,
+    "name": "Isabelle Davies",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The new theme gives the brand a much stronger presence. We came away with a much clearer understanding of what our store needed next. We would definitely recommend the team to another ecommerce business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "83",
+    "rating": 5,
+    "name": "Amelia Dixon",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The store now feels more streamlined without losing the personality of the brand. The recommendations were easy to understand and the implementation was thoughtful. It was a strong improvement for our business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "84",
+    "rating": 5,
+    "name": "Evie Watson",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The changes made the path from product discovery to checkout much clearer. The recommendations were easy to understand and the implementation was thoughtful. We are pleased with the result and the support we received.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "85",
+    "rating": 5,
+    "name": "Harry King",
+    "text": "The process was straightforward, with helpful updates at each stage. We now have a more focused product-page and checkout experience. We came away with a much clearer understanding of what our store needed next. The final result feels like a meaningful step forward.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "86",
+    "rating": 4,
+    "name": "Oscar Cole",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The store is noticeably easier to navigate and feels faster on mobile. They brought useful ideas to the table while still respecting our brand and existing setup. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "87",
+    "rating": 5,
+    "name": "Logan Stone",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The store now feels more streamlined without losing the personality of the brand. The improvements are noticeable across the customer journey, particularly on mobile. It was a strong improvement for our business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "88",
+    "rating": 5,
+    "name": "Jack Griffiths",
+    "text": "The process was straightforward, with helpful updates at each stage. The store structure is clearer and the customer experience feels more modern. They brought useful ideas to the table while still respecting our brand and existing setup. We would definitely recommend the team to another ecommerce business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "89",
+    "rating": 5,
+    "name": "Freddie Morris",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The store now feels more streamlined without losing the personality of the brand. We came away with a much clearer understanding of what our store needed next. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "90",
+    "rating": 5,
+    "name": "Noah Clarke",
+    "text": "The communication was clear, practical, and consistent throughout the project. The strategy gave us a much clearer picture of where to focus our marketing effort. They brought useful ideas to the table while still respecting our brand and existing setup. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "91",
+    "rating": 4,
+    "name": "Ella Martin",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The store structure is clearer and the customer experience feels more modern. The recommendations were easy to understand and the implementation was thoughtful. We are pleased with the result and the support we received.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "92",
+    "rating": 5,
+    "name": "Lucas Cooper",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The team identified friction points that our own team had been missing. We came away with a much clearer understanding of what our store needed next. We would definitely recommend the team to another ecommerce business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "93",
+    "rating": 5,
+    "name": "Henry Harvey",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The Shopify store now feels much more polished and intentional. They paid attention to the small details that we had overlooked internally. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "94",
+    "rating": 5,
+    "name": "Ellie Hughes",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. We now have a more practical growth plan instead of trying to do everything at once. Everything was handled in a structured way, which gave us confidence throughout the project. We are pleased with the result and the support we received.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "95",
+    "rating": 4,
+    "name": "Oscar Owen",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The store structure is clearer and the customer experience feels more modern. They paid attention to the small details that we had overlooked internally. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "96",
+    "rating": 5,
+    "name": "Charlotte Mills",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The recommendations gave our team a useful framework for the next stage of growth. We came away with a much clearer understanding of what our store needed next. The final result feels like a meaningful step forward.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "97",
+    "rating": 5,
+    "name": "Charlotte Anderson",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The team identified friction points that our own team had been missing. Everything was handled in a structured way, which gave us confidence throughout the project. We would definitely recommend the team to another ecommerce business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "98",
+    "rating": 5,
+    "name": "Albie Clarke",
+    "text": "The team made the whole process feel much simpler than we expected. The team helped us connect our marketing activity to clearer commercial goals. Everything was handled in a structured way, which gave us confidence throughout the project. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "99",
+    "rating": 4,
+    "name": "Oscar Young",
+    "text": "The team made the whole process feel much simpler than we expected. The cleanup made the catalog and key pages much easier for customers to understand. Everything was handled in a structured way, which gave us confidence throughout the project. The final result feels like a meaningful step forward.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "100",
+    "rating": 4,
+    "name": "Willow Mills",
+    "text": "The team made the whole process feel much simpler than we expected. The team identified friction points that our own team had been missing. The team was responsive when we had questions and made revisions without making the process difficult. We would definitely recommend the team to another ecommerce business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "101",
+    "rating": 5,
+    "name": "Liam Wood",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The store now feels more streamlined without losing the personality of the brand. The team was responsive when we had questions and made revisions without making the process difficult. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "102",
+    "rating": 5,
+    "name": "Amelia Wood",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The team helped us connect our marketing activity to clearer commercial goals. We came away with a much clearer understanding of what our store needed next. We would definitely recommend the team to another ecommerce business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "103",
+    "rating": 5,
+    "name": "Jacob Jenkins",
+    "text": "The process was straightforward, with helpful updates at each stage. The strategy gave us a much clearer picture of where to focus our marketing effort. We came away with a much clearer understanding of what our store needed next. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "104",
+    "rating": 5,
+    "name": "Sienna Wood",
+    "text": "The communication was clear, practical, and consistent throughout the project. The store structure is clearer and the customer experience feels more modern. The team was responsive when we had questions and made revisions without making the process difficult. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "105",
+    "rating": 5,
+    "name": "Lucas Bennett",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The optimization work removed several small frustrations from the shopping experience. We especially liked the practical approach rather than being pushed into unnecessary changes. Overall, it was a very positive experience.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "106",
+    "rating": 5,
+    "name": "Arthur Jenkins",
+    "text": "The communication was clear, practical, and consistent throughout the project. The strategy gave us a much clearer picture of where to focus our marketing effort. The recommendations were easy to understand and the implementation was thoughtful. We are pleased with the result and the support we received.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "107",
+    "rating": 5,
+    "name": "Evelyn Phillips",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The cleanup made the catalog and key pages much easier for customers to understand. The recommendations were easy to understand and the implementation was thoughtful. Overall, it was a very positive experience.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "108",
+    "rating": 4,
+    "name": "Grace Jenkins",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The optimization work removed several small frustrations from the shopping experience. The improvements are noticeable across the customer journey, particularly on mobile. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "109",
+    "rating": 5,
+    "name": "Harry Clarke",
+    "text": "The team made the whole process feel much simpler than we expected. The custom functionality works smoothly and fits our day-to-day workflow. They paid attention to the small details that we had overlooked internally. It was a strong improvement for our business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "110",
+    "rating": 5,
+    "name": "Isla Foster",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The strategy gave us a much clearer picture of where to focus our marketing effort. The improvements are noticeable across the customer journey, particularly on mobile. It was a strong improvement for our business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "111",
+    "rating": 5,
+    "name": "Edward Knight",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. We now have a more practical growth plan instead of trying to do everything at once. We especially liked the practical approach rather than being pushed into unnecessary changes. We are glad we chose to have the work handled professionally.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "112",
+    "rating": 5,
+    "name": "Reuben Cooper",
+    "text": "The process was straightforward, with helpful updates at each stage. The custom functionality works smoothly and fits our day-to-day workflow. We especially liked the practical approach rather than being pushed into unnecessary changes. We are glad we chose to have the work handled professionally.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "113",
+    "rating": 5,
+    "name": "Evie Bell",
+    "text": "The process was straightforward, with helpful updates at each stage. The recommendations gave our team a useful framework for the next stage of growth. We came away with a much clearer understanding of what our store needed next. It was a strong improvement for our business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "114",
+    "rating": 5,
+    "name": "Reuben Taylor",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The recommendations gave our team a useful framework for the next stage of growth. They brought useful ideas to the table while still respecting our brand and existing setup. We are glad we chose to have the work handled professionally.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "115",
+    "rating": 5,
+    "name": "Daniel Green",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The store structure is clearer and the customer experience feels more modern. We came away with a much clearer understanding of what our store needed next. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "116",
+    "rating": 5,
+    "name": "Harper Morris",
+    "text": "The process was straightforward, with helpful updates at each stage. We now have a more focused product-page and checkout experience. They paid attention to the small details that we had overlooked internally. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "117",
+    "rating": 5,
+    "name": "Lucas Walker",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The store now feels more streamlined without losing the personality of the brand. The recommendations were easy to understand and the implementation was thoughtful. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "118",
+    "rating": 4,
+    "name": "Isla Brooks",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The optimization work removed several small frustrations from the shopping experience. We especially liked the practical approach rather than being pushed into unnecessary changes. It was a strong improvement for our business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "119",
+    "rating": 5,
+    "name": "Benjamin Harris",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. We now have a more practical growth plan instead of trying to do everything at once. We especially liked the practical approach rather than being pushed into unnecessary changes. It was a strong improvement for our business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "120",
+    "rating": 5,
+    "name": "Isla Campbell",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The revised customer journey feels more natural and easier to follow. They paid attention to the small details that we had overlooked internally. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "121",
+    "rating": 4,
+    "name": "Isabella Martin",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The new theme gives the brand a much stronger presence. The team was responsive when we had questions and made revisions without making the process difficult. We are pleased with the result and the support we received.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "122",
+    "rating": 5,
+    "name": "William Mitchell",
+    "text": "The process was straightforward, with helpful updates at each stage. We now have a more practical growth plan instead of trying to do everything at once. The team was responsive when we had questions and made revisions without making the process difficult. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "123",
+    "rating": 5,
+    "name": "Sophie Hughes",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The changes made the path from product discovery to checkout much clearer. They paid attention to the small details that we had overlooked internally. We are pleased with the result and the support we received.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "124",
+    "rating": 5,
+    "name": "Finley Edwards",
+    "text": "The process was straightforward, with helpful updates at each stage. The store structure is clearer and the customer experience feels more modern. We came away with a much clearer understanding of what our store needed next. The final result feels like a meaningful step forward.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "125",
+    "rating": 5,
+    "name": "Imogen Hunt",
+    "text": "The team made the whole process feel much simpler than we expected. The recommendations gave our team a useful framework for the next stage of growth. The team was responsive when we had questions and made revisions without making the process difficult. We would definitely recommend the team to another ecommerce business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "126",
+    "rating": 4,
+    "name": "Isla Wilson",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The cleanup made the catalog and key pages much easier for customers to understand. They paid attention to the small details that we had overlooked internally. It was a strong improvement for our business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "127",
+    "rating": 5,
+    "name": "Freya Lewis",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The recommendations gave our team a useful framework for the next stage of growth. They brought useful ideas to the table while still respecting our brand and existing setup. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "128",
+    "rating": 5,
+    "name": "Erin Stone",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The store now feels more streamlined without losing the personality of the brand. They paid attention to the small details that we had overlooked internally. We are glad we chose to have the work handled professionally.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "129",
+    "rating": 5,
+    "name": "Esme Owen",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The custom functionality works smoothly and fits our day-to-day workflow. The improvements are noticeable across the customer journey, particularly on mobile. The final result feels like a meaningful step forward.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "130",
+    "rating": 5,
+    "name": "Olivia Mason",
+    "text": "The communication was clear, practical, and consistent throughout the project. The optimization work removed several small frustrations from the shopping experience. We especially liked the practical approach rather than being pushed into unnecessary changes. We would definitely recommend the team to another ecommerce business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "131",
+    "rating": 5,
+    "name": "Isabella Knight",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The store structure is clearer and the customer experience feels more modern. The recommendations were easy to understand and the implementation was thoughtful. We would definitely recommend the team to another ecommerce business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "132",
+    "rating": 5,
+    "name": "Phoebe Marshall",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. We now have a more focused product-page and checkout experience. The team was responsive when we had questions and made revisions without making the process difficult. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "133",
+    "rating": 4,
+    "name": "Jack Hunt",
+    "text": "The communication was clear, practical, and consistent throughout the project. The store is noticeably easier to navigate and feels faster on mobile. We came away with a much clearer understanding of what our store needed next. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "134",
+    "rating": 4,
+    "name": "Noah Hughes",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The optimization work removed several small frustrations from the shopping experience. The improvements are noticeable across the customer journey, particularly on mobile. Overall, it was a very positive experience.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "135",
+    "rating": 5,
+    "name": "Chloe Watson",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The store structure is clearer and the customer experience feels more modern. We especially liked the practical approach rather than being pushed into unnecessary changes. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "136",
+    "rating": 4,
+    "name": "Ethan Mitchell",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The custom functionality works smoothly and fits our day-to-day workflow. The improvements are noticeable across the customer journey, particularly on mobile. We are pleased with the result and the support we received.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "137",
+    "rating": 5,
+    "name": "Liam King",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The new theme gives the brand a much stronger presence. Everything was handled in a structured way, which gave us confidence throughout the project. We are glad we chose to have the work handled professionally.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "138",
+    "rating": 5,
+    "name": "Lily Cole",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The custom functionality works smoothly and fits our day-to-day workflow. We came away with a much clearer understanding of what our store needed next. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "139",
+    "rating": 5,
+    "name": "Ellie Scott",
+    "text": "The process was straightforward, with helpful updates at each stage. We now have a more focused product-page and checkout experience. They brought useful ideas to the table while still respecting our brand and existing setup. We are pleased with the result and the support we received.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "140",
+    "rating": 5,
+    "name": "Teddy Cole",
+    "text": "The team made the whole process feel much simpler than we expected. The store structure is clearer and the customer experience feels more modern. Everything was handled in a structured way, which gave us confidence throughout the project. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "141",
+    "rating": 5,
+    "name": "Poppy Wright",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The Shopify store now feels much more polished and intentional. We came away with a much clearer understanding of what our store needed next. We would happily work with them again.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "142",
+    "rating": 5,
+    "name": "Archie White",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. We now have a more practical growth plan instead of trying to do everything at once. We especially liked the practical approach rather than being pushed into unnecessary changes. Overall, it was a very positive experience.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "143",
+    "rating": 5,
+    "name": "Sophia Martin",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The store is noticeably easier to navigate and feels faster on mobile. We came away with a much clearer understanding of what our store needed next. We are glad we chose to have the work handled professionally.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "144",
+    "rating": 5,
+    "name": "Alfie Hunt",
+    "text": "The process was straightforward, with helpful updates at each stage. The store now feels more streamlined without losing the personality of the brand. We especially liked the practical approach rather than being pushed into unnecessary changes. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "145",
+    "rating": 5,
+    "name": "Freya Murphy",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The optimization work removed several small frustrations from the shopping experience. The team was responsive when we had questions and made revisions without making the process difficult. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "146",
+    "rating": 4,
+    "name": "Oliver Taylor",
+    "text": "The process was straightforward, with helpful updates at each stage. The custom functionality works smoothly and fits our day-to-day workflow. The team was responsive when we had questions and made revisions without making the process difficult. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "147",
+    "rating": 5,
+    "name": "Abigail Ward",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The Shopify store now feels much more polished and intentional. The team was responsive when we had questions and made revisions without making the process difficult. We are glad we chose to have the work handled professionally.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "148",
+    "rating": 5,
+    "name": "Esme Bennett",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The custom functionality works smoothly and fits our day-to-day workflow. The improvements are noticeable across the customer journey, particularly on mobile. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "149",
+    "rating": 5,
+    "name": "Evie James",
+    "text": "The communication was clear, practical, and consistent throughout the project. We now have a more practical growth plan instead of trying to do everything at once. They brought useful ideas to the table while still respecting our brand and existing setup. We are glad we chose to have the work handled professionally.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "150",
+    "rating": 5,
+    "name": "Samuel Cole",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. We now have a more focused product-page and checkout experience. The team was responsive when we had questions and made revisions without making the process difficult. The final result feels like a meaningful step forward.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "151",
+    "rating": 5,
+    "name": "Adam Morgan",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The Shopify store now feels much more polished and intentional. The recommendations were easy to understand and the implementation was thoughtful. We would definitely recommend the team to another ecommerce business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "152",
+    "rating": 5,
+    "name": "Adam Harris",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The changes made the path from product discovery to checkout much clearer. We came away with a much clearer understanding of what our store needed next. The final result feels like a meaningful step forward.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "153",
+    "rating": 5,
+    "name": "Thomas Cooper",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The custom functionality works smoothly and fits our day-to-day workflow. Everything was handled in a structured way, which gave us confidence throughout the project. We are glad we chose to have the work handled professionally.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "154",
+    "rating": 5,
+    "name": "Adam Hall",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. We now have a more focused product-page and checkout experience. The recommendations were easy to understand and the implementation was thoughtful. The final result feels like a meaningful step forward.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "155",
+    "rating": 5,
+    "name": "Ruby Walker",
+    "text": "The team made the whole process feel much simpler than we expected. The changes made the path from product discovery to checkout much clearer. Everything was handled in a structured way, which gave us confidence throughout the project. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "156",
+    "rating": 5,
+    "name": "Noah Brooks",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The store now feels more streamlined without losing the personality of the brand. They brought useful ideas to the table while still respecting our brand and existing setup. The final result feels like a meaningful step forward.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "157",
+    "rating": 5,
+    "name": "Archie Campbell",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The optimization work removed several small frustrations from the shopping experience. We came away with a much clearer understanding of what our store needed next. It was a strong improvement for our business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "158",
+    "rating": 4,
+    "name": "Charlie Parker",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. We now have a more focused product-page and checkout experience. They brought useful ideas to the table while still respecting our brand and existing setup. Overall, it was a very positive experience.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "159",
+    "rating": 5,
+    "name": "Benjamin Knight",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The strategy gave us a much clearer picture of where to focus our marketing effort. We especially liked the practical approach rather than being pushed into unnecessary changes. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "160",
+    "rating": 5,
+    "name": "Maya Harris",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The recommendations gave our team a useful framework for the next stage of growth. They paid attention to the small details that we had overlooked internally. The final result feels like a meaningful step forward.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "161",
+    "rating": 5,
+    "name": "Ethan Harvey",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The store now feels more streamlined without losing the personality of the brand. We came away with a much clearer understanding of what our store needed next. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "162",
+    "rating": 5,
+    "name": "Alexander Wood",
+    "text": "The team made the whole process feel much simpler than we expected. The team helped us connect our marketing activity to clearer commercial goals. We especially liked the practical approach rather than being pushed into unnecessary changes. We are glad we chose to have the work handled professionally.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "163",
+    "rating": 4,
+    "name": "Matilda Brooks",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. We now have a more practical growth plan instead of trying to do everything at once. They paid attention to the small details that we had overlooked internally. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "164",
+    "rating": 5,
+    "name": "Imogen Robinson",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The store structure is clearer and the customer experience feels more modern. The recommendations were easy to understand and the implementation was thoughtful. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "165",
+    "rating": 5,
+    "name": "Theodore Murray",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. We now have a more practical growth plan instead of trying to do everything at once. We came away with a much clearer understanding of what our store needed next. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "166",
+    "rating": 5,
+    "name": "Esme King",
+    "text": "The communication was clear, practical, and consistent throughout the project. The store is noticeably easier to navigate and feels faster on mobile. The improvements are noticeable across the customer journey, particularly on mobile. The final result feels like a meaningful step forward.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "167",
+    "rating": 5,
+    "name": "Elsie Owen",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The optimization work removed several small frustrations from the shopping experience. They paid attention to the small details that we had overlooked internally. The final result feels like a meaningful step forward.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "168",
+    "rating": 5,
+    "name": "Thomas Hall",
+    "text": "The team made the whole process feel much simpler than we expected. The custom functionality works smoothly and fits our day-to-day workflow. The team was responsive when we had questions and made revisions without making the process difficult. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "169",
+    "rating": 5,
+    "name": "Sienna Watson",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The Shopify store now feels much more polished and intentional. The recommendations were easy to understand and the implementation was thoughtful. We would happily work with them again.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "170",
+    "rating": 5,
+    "name": "Oliver Bennett",
+    "text": "The team made the whole process feel much simpler than we expected. The store is noticeably easier to navigate and feels faster on mobile. They paid attention to the small details that we had overlooked internally. We would definitely recommend the team to another ecommerce business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "171",
+    "rating": 5,
+    "name": "Edward Bell",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The team helped us connect our marketing activity to clearer commercial goals. The team was responsive when we had questions and made revisions without making the process difficult. We would definitely recommend the team to another ecommerce business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "172",
+    "rating": 5,
+    "name": "Grace Stone",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The store structure is clearer and the customer experience feels more modern. The recommendations were easy to understand and the implementation was thoughtful. We are glad we chose to have the work handled professionally.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "173",
+    "rating": 5,
+    "name": "Erin Green",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The store is noticeably easier to navigate and feels faster on mobile. Everything was handled in a structured way, which gave us confidence throughout the project. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "174",
+    "rating": 5,
+    "name": "Erin Mills",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The changes made the path from product discovery to checkout much clearer. The team was responsive when we had questions and made revisions without making the process difficult. Overall, it was a very positive experience.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "175",
+    "rating": 5,
+    "name": "Theodore Reed",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The new theme gives the brand a much stronger presence. Everything was handled in a structured way, which gave us confidence throughout the project. We are glad we chose to have the work handled professionally.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "176",
+    "rating": 5,
+    "name": "Charlie Wilson",
+    "text": "The team made the whole process feel much simpler than we expected. We now have a more practical growth plan instead of trying to do everything at once. We especially liked the practical approach rather than being pushed into unnecessary changes. We are glad we chose to have the work handled professionally.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "177",
+    "rating": 5,
+    "name": "William Marshall",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. We now have a more focused product-page and checkout experience. Everything was handled in a structured way, which gave us confidence throughout the project. We would happily work with them again.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "178",
+    "rating": 5,
+    "name": "Edward Lewis",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. We now have a more focused product-page and checkout experience. Everything was handled in a structured way, which gave us confidence throughout the project. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "179",
+    "rating": 5,
+    "name": "Freya Marshall",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The store structure is clearer and the customer experience feels more modern. They paid attention to the small details that we had overlooked internally. We are glad we chose to have the work handled professionally.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "180",
+    "rating": 4,
+    "name": "Freya Holmes",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The changes made the path from product discovery to checkout much clearer. We came away with a much clearer understanding of what our store needed next. We would happily work with them again.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "181",
+    "rating": 5,
+    "name": "Charlie Graham",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The store now feels more streamlined without losing the personality of the brand. The improvements are noticeable across the customer journey, particularly on mobile. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "182",
+    "rating": 5,
+    "name": "Finley Bailey",
+    "text": "The team made the whole process feel much simpler than we expected. The changes made the path from product discovery to checkout much clearer. We especially liked the practical approach rather than being pushed into unnecessary changes. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "183",
+    "rating": 4,
+    "name": "Daisy Stone",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The team identified friction points that our own team had been missing. We came away with a much clearer understanding of what our store needed next. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "184",
+    "rating": 5,
+    "name": "Leo Hughes",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The team identified friction points that our own team had been missing. The recommendations were easy to understand and the implementation was thoughtful. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "185",
+    "rating": 5,
+    "name": "Harper Jenkins",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The new theme gives the brand a much stronger presence. Everything was handled in a structured way, which gave us confidence throughout the project. We are pleased with the result and the support we received.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "186",
+    "rating": 5,
+    "name": "Sebastian Roberts",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The store now feels more streamlined without losing the personality of the brand. The improvements are noticeable across the customer journey, particularly on mobile. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "187",
+    "rating": 5,
+    "name": "Logan Cooper",
+    "text": "The team made the whole process feel much simpler than we expected. The team identified friction points that our own team had been missing. We came away with a much clearer understanding of what our store needed next. The final result feels like a meaningful step forward.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "188",
+    "rating": 4,
+    "name": "Arthur Young",
+    "text": "The team made the whole process feel much simpler than we expected. The revised customer journey feels more natural and easier to follow. Everything was handled in a structured way, which gave us confidence throughout the project. The final result feels like a meaningful step forward.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "189",
+    "rating": 5,
+    "name": "Florence Graham",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The new theme gives the brand a much stronger presence. We came away with a much clearer understanding of what our store needed next. We would definitely recommend the team to another ecommerce business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "190",
+    "rating": 5,
+    "name": "Ellie Owen",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The team helped us connect our marketing activity to clearer commercial goals. Everything was handled in a structured way, which gave us confidence throughout the project. It was a strong improvement for our business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "191",
+    "rating": 5,
+    "name": "Sebastian Morris",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The new theme gives the brand a much stronger presence. The team was responsive when we had questions and made revisions without making the process difficult. We would definitely recommend the team to another ecommerce business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "192",
+    "rating": 5,
+    "name": "Jacob Brooks",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The custom functionality works smoothly and fits our day-to-day workflow. They paid attention to the small details that we had overlooked internally. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "193",
+    "rating": 5,
+    "name": "Hannah Parker",
+    "text": "The team made the whole process feel much simpler than we expected. The optimization work removed several small frustrations from the shopping experience. We came away with a much clearer understanding of what our store needed next. We would definitely recommend the team to another ecommerce business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "194",
+    "rating": 5,
+    "name": "Oliver Shaw",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. We now have a more practical growth plan instead of trying to do everything at once. They brought useful ideas to the table while still respecting our brand and existing setup. We are pleased with the result and the support we received.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "195",
+    "rating": 5,
+    "name": "Olivia Bailey",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The store now feels more streamlined without losing the personality of the brand. They brought useful ideas to the table while still respecting our brand and existing setup. Overall, it was a very positive experience.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "196",
+    "rating": 5,
+    "name": "Edward Holmes",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The recommendations gave our team a useful framework for the next stage of growth. We came away with a much clearer understanding of what our store needed next. We would definitely recommend the team to another ecommerce business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "197",
+    "rating": 5,
+    "name": "James Mills",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The cleanup made the catalog and key pages much easier for customers to understand. We came away with a much clearer understanding of what our store needed next. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "198",
+    "rating": 5,
+    "name": "Isabelle Lewis",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The store structure is clearer and the customer experience feels more modern. The team was responsive when we had questions and made revisions without making the process difficult. We are glad we chose to have the work handled professionally.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "199",
+    "rating": 5,
+    "name": "Edward Owen",
+    "text": "The process was straightforward, with helpful updates at each stage. The changes made the path from product discovery to checkout much clearer. The improvements are noticeable across the customer journey, particularly on mobile. We would definitely recommend the team to another ecommerce business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "200",
+    "rating": 5,
+    "name": "William Anderson",
+    "text": "The process was straightforward, with helpful updates at each stage. The team identified friction points that our own team had been missing. We especially liked the practical approach rather than being pushed into unnecessary changes. We are pleased with the result and the support we received.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "201",
+    "rating": 4,
+    "name": "Sophie Collins",
+    "text": "The team made the whole process feel much simpler than we expected. The Shopify store now feels much more polished and intentional. We especially liked the practical approach rather than being pushed into unnecessary changes. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "202",
+    "rating": 5,
+    "name": "George Anderson",
+    "text": "The process was straightforward, with helpful updates at each stage. We now have a more practical growth plan instead of trying to do everything at once. We especially liked the practical approach rather than being pushed into unnecessary changes. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "203",
+    "rating": 5,
+    "name": "Thomas Thomas",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The cleanup made the catalog and key pages much easier for customers to understand. The improvements are noticeable across the customer journey, particularly on mobile. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "204",
+    "rating": 5,
+    "name": "Isla Morgan",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The store structure is clearer and the customer experience feels more modern. They paid attention to the small details that we had overlooked internally. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "205",
+    "rating": 4,
+    "name": "Sofia Scott",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The changes made the path from product discovery to checkout much clearer. They brought useful ideas to the table while still respecting our brand and existing setup. Overall, it was a very positive experience.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "206",
+    "rating": 4,
+    "name": "Sebastian Martin",
+    "text": "The process was straightforward, with helpful updates at each stage. The cleanup made the catalog and key pages much easier for customers to understand. The team was responsive when we had questions and made revisions without making the process difficult. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "207",
+    "rating": 4,
+    "name": "Emily King",
+    "text": "The communication was clear, practical, and consistent throughout the project. The custom functionality works smoothly and fits our day-to-day workflow. Everything was handled in a structured way, which gave us confidence throughout the project. It was a strong improvement for our business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "208",
+    "rating": 5,
+    "name": "Rosie Reed",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The optimization work removed several small frustrations from the shopping experience. The improvements are noticeable across the customer journey, particularly on mobile. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "209",
+    "rating": 5,
+    "name": "Harper Parker",
+    "text": "The communication was clear, practical, and consistent throughout the project. The changes made the path from product discovery to checkout much clearer. They paid attention to the small details that we had overlooked internally. We would happily work with them again.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "210",
+    "rating": 5,
+    "name": "Alfie Mitchell",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The custom functionality works smoothly and fits our day-to-day workflow. Everything was handled in a structured way, which gave us confidence throughout the project. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "211",
+    "rating": 5,
+    "name": "Jacob Anderson",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. We now have a more practical growth plan instead of trying to do everything at once. We especially liked the practical approach rather than being pushed into unnecessary changes. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "212",
+    "rating": 5,
+    "name": "Henry Taylor",
+    "text": "The process was straightforward, with helpful updates at each stage. The store is noticeably easier to navigate and feels faster on mobile. We came away with a much clearer understanding of what our store needed next. We would definitely recommend the team to another ecommerce business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "213",
+    "rating": 5,
+    "name": "Phoebe Hall",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. We now have a more practical growth plan instead of trying to do everything at once. We came away with a much clearer understanding of what our store needed next. Overall, it was a very positive experience.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "214",
+    "rating": 5,
+    "name": "Alexander Collins",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The recommendations gave our team a useful framework for the next stage of growth. We especially liked the practical approach rather than being pushed into unnecessary changes. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "215",
+    "rating": 5,
+    "name": "Matilda Evans",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The store is noticeably easier to navigate and feels faster on mobile. They brought useful ideas to the table while still respecting our brand and existing setup. We are glad we chose to have the work handled professionally.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "216",
+    "rating": 4,
+    "name": "Oscar Matthews",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The changes made the path from product discovery to checkout much clearer. The team was responsive when we had questions and made revisions without making the process difficult. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "217",
+    "rating": 5,
+    "name": "Leo Richardson",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The store now feels more streamlined without losing the personality of the brand. The team was responsive when we had questions and made revisions without making the process difficult. We would definitely recommend the team to another ecommerce business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "218",
+    "rating": 5,
+    "name": "Thomas Shaw",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The strategy gave us a much clearer picture of where to focus our marketing effort. They brought useful ideas to the table while still respecting our brand and existing setup. It was a strong improvement for our business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "219",
+    "rating": 5,
+    "name": "Oliver Morris",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The changes made the path from product discovery to checkout much clearer. They paid attention to the small details that we had overlooked internally. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "220",
+    "rating": 5,
+    "name": "Hannah Marshall",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The new theme gives the brand a much stronger presence. The team was responsive when we had questions and made revisions without making the process difficult. We are pleased with the result and the support we received.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "221",
+    "rating": 5,
+    "name": "Theo Graham",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The revised customer journey feels more natural and easier to follow. We especially liked the practical approach rather than being pushed into unnecessary changes. We would happily work with them again.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "222",
+    "rating": 5,
+    "name": "Alfie Pearson",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The custom functionality works smoothly and fits our day-to-day workflow. The improvements are noticeable across the customer journey, particularly on mobile. The final result feels like a meaningful step forward.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "223",
+    "rating": 5,
+    "name": "Erin Harvey",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The cleanup made the catalog and key pages much easier for customers to understand. They paid attention to the small details that we had overlooked internally. It was a strong improvement for our business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "224",
+    "rating": 5,
+    "name": "Sienna Mason",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The new theme gives the brand a much stronger presence. They paid attention to the small details that we had overlooked internally. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "225",
+    "rating": 5,
+    "name": "Albie Harris",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The new theme gives the brand a much stronger presence. We especially liked the practical approach rather than being pushed into unnecessary changes. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "226",
+    "rating": 5,
+    "name": "Isla Turner",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. We now have a more focused product-page and checkout experience. The improvements are noticeable across the customer journey, particularly on mobile. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "227",
+    "rating": 5,
+    "name": "Ethan Hall",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The store now feels more streamlined without losing the personality of the brand. The recommendations were easy to understand and the implementation was thoughtful. We are glad we chose to have the work handled professionally.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "228",
+    "rating": 5,
+    "name": "Liam Watson",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The team helped us connect our marketing activity to clearer commercial goals. The improvements are noticeable across the customer journey, particularly on mobile. The final result feels like a meaningful step forward.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "229",
+    "rating": 5,
+    "name": "Lily Foster",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The revised customer journey feels more natural and easier to follow. Everything was handled in a structured way, which gave us confidence throughout the project. We would happily work with them again.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "230",
+    "rating": 4,
+    "name": "Lucas Mitchell",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The optimization work removed several small frustrations from the shopping experience. The improvements are noticeable across the customer journey, particularly on mobile. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "231",
+    "rating": 5,
+    "name": "Harper White",
+    "text": "The team made the whole process feel much simpler than we expected. The strategy gave us a much clearer picture of where to focus our marketing effort. Everything was handled in a structured way, which gave us confidence throughout the project. We would definitely recommend the team to another ecommerce business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "232",
+    "rating": 5,
+    "name": "Leo Holmes",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The store is noticeably easier to navigate and feels faster on mobile. The team was responsive when we had questions and made revisions without making the process difficult. It was a strong improvement for our business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "233",
+    "rating": 5,
+    "name": "Olivia Marshall",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The Shopify store now feels much more polished and intentional. They brought useful ideas to the table while still respecting our brand and existing setup. The final result feels like a meaningful step forward.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "234",
+    "rating": 5,
+    "name": "Poppy Murray",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The store is noticeably easier to navigate and feels faster on mobile. The team was responsive when we had questions and made revisions without making the process difficult. The final result feels like a meaningful step forward.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "235",
+    "rating": 5,
+    "name": "Edward Walker",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The team identified friction points that our own team had been missing. We especially liked the practical approach rather than being pushed into unnecessary changes. We would definitely recommend the team to another ecommerce business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "236",
+    "rating": 4,
+    "name": "Joseph Mason",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The store is noticeably easier to navigate and feels faster on mobile. We especially liked the practical approach rather than being pushed into unnecessary changes. Overall, it was a very positive experience.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "237",
+    "rating": 5,
+    "name": "Theo Pearson",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The team identified friction points that our own team had been missing. They brought useful ideas to the table while still respecting our brand and existing setup. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "238",
+    "rating": 5,
+    "name": "Lily Holmes",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. We now have a more practical growth plan instead of trying to do everything at once. Everything was handled in a structured way, which gave us confidence throughout the project. We would definitely recommend the team to another ecommerce business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "239",
+    "rating": 5,
+    "name": "Ellie Brooks",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The new theme gives the brand a much stronger presence. The recommendations were easy to understand and the implementation was thoughtful. We are pleased with the result and the support we received.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "240",
+    "rating": 5,
+    "name": "Willow Mitchell",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The changes made the path from product discovery to checkout much clearer. We came away with a much clearer understanding of what our store needed next. We are pleased with the result and the support we received.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "241",
+    "rating": 5,
+    "name": "Jack Hamilton",
+    "text": "The team made the whole process feel much simpler than we expected. The custom functionality works smoothly and fits our day-to-day workflow. Everything was handled in a structured way, which gave us confidence throughout the project. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "242",
+    "rating": 5,
+    "name": "Isabella Hamilton",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. We now have a more practical growth plan instead of trying to do everything at once. We came away with a much clearer understanding of what our store needed next. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "243",
+    "rating": 5,
+    "name": "Isla Thompson",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The team helped us connect our marketing activity to clearer commercial goals. The team was responsive when we had questions and made revisions without making the process difficult. We are glad we chose to have the work handled professionally.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "244",
+    "rating": 5,
+    "name": "Layla Hamilton",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The cleanup made the catalog and key pages much easier for customers to understand. The recommendations were easy to understand and the implementation was thoughtful. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "245",
+    "rating": 4,
+    "name": "Ruby Hamilton",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The team helped us connect our marketing activity to clearer commercial goals. The recommendations were easy to understand and the implementation was thoughtful. We are pleased with the result and the support we received.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "246",
+    "rating": 5,
+    "name": "Theodore Anderson",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The team helped us connect our marketing activity to clearer commercial goals. The recommendations were easy to understand and the implementation was thoughtful. It was a strong improvement for our business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "247",
+    "rating": 5,
+    "name": "Jack Knight",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The optimization work removed several small frustrations from the shopping experience. The team was responsive when we had questions and made revisions without making the process difficult. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "248",
+    "rating": 5,
+    "name": "Freya Fisher",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The revised customer journey feels more natural and easier to follow. Everything was handled in a structured way, which gave us confidence throughout the project. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "249",
+    "rating": 5,
+    "name": "Daisy Hall",
+    "text": "The communication was clear, practical, and consistent throughout the project. The optimization work removed several small frustrations from the shopping experience. The improvements are noticeable across the customer journey, particularly on mobile. Overall, it was a very positive experience.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "250",
+    "rating": 5,
+    "name": "Joseph James",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The store now feels more streamlined without losing the personality of the brand. They brought useful ideas to the table while still respecting our brand and existing setup. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "251",
+    "rating": 4,
+    "name": "Ruby Hughes",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The store is noticeably easier to navigate and feels faster on mobile. The team was responsive when we had questions and made revisions without making the process difficult. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "252",
+    "rating": 5,
+    "name": "Emily Turner",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The store now feels more streamlined without losing the personality of the brand. The recommendations were easy to understand and the implementation was thoughtful. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "253",
+    "rating": 5,
+    "name": "Logan Green",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. We now have a more practical growth plan instead of trying to do everything at once. The team was responsive when we had questions and made revisions without making the process difficult. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "254",
+    "rating": 5,
+    "name": "Finley Wilson",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The Shopify store now feels much more polished and intentional. The team was responsive when we had questions and made revisions without making the process difficult. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "255",
+    "rating": 5,
+    "name": "Daisy Owen",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The store structure is clearer and the customer experience feels more modern. The improvements are noticeable across the customer journey, particularly on mobile. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "256",
+    "rating": 5,
+    "name": "Freya Wood",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The store structure is clearer and the customer experience feels more modern. We came away with a much clearer understanding of what our store needed next. We would happily work with them again.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "257",
+    "rating": 5,
+    "name": "Florence Anderson",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The optimization work removed several small frustrations from the shopping experience. Everything was handled in a structured way, which gave us confidence throughout the project. Overall, it was a very positive experience.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "258",
+    "rating": 5,
+    "name": "Oscar Scott",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. We now have a more focused product-page and checkout experience. The team was responsive when we had questions and made revisions without making the process difficult. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "259",
+    "rating": 5,
+    "name": "George Matthews",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The team helped us connect our marketing activity to clearer commercial goals. Everything was handled in a structured way, which gave us confidence throughout the project. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "260",
+    "rating": 5,
+    "name": "Ellie Fisher",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The custom functionality works smoothly and fits our day-to-day workflow. The team was responsive when we had questions and made revisions without making the process difficult. We are glad we chose to have the work handled professionally.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "261",
+    "rating": 5,
+    "name": "Alexander Thomas",
+    "text": "The team made the whole process feel much simpler than we expected. We now have a more focused product-page and checkout experience. The team was responsive when we had questions and made revisions without making the process difficult. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "262",
+    "rating": 5,
+    "name": "Teddy King",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The strategy gave us a much clearer picture of where to focus our marketing effort. The recommendations were easy to understand and the implementation was thoughtful. We are glad we chose to have the work handled professionally.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "263",
+    "rating": 4,
+    "name": "Willow Webb",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The changes made the path from product discovery to checkout much clearer. The team was responsive when we had questions and made revisions without making the process difficult. Overall, it was a very positive experience.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "264",
+    "rating": 4,
+    "name": "Edward Bailey",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The store structure is clearer and the customer experience feels more modern. The improvements are noticeable across the customer journey, particularly on mobile. The final result feels like a meaningful step forward.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "265",
+    "rating": 5,
+    "name": "Leo Matthews",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The changes made the path from product discovery to checkout much clearer. They brought useful ideas to the table while still respecting our brand and existing setup. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "266",
+    "rating": 5,
+    "name": "Adam Phillips",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The recommendations gave our team a useful framework for the next stage of growth. We came away with a much clearer understanding of what our store needed next. It was a strong improvement for our business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "267",
+    "rating": 5,
+    "name": "Harry Wood",
+    "text": "The team made the whole process feel much simpler than we expected. The custom functionality works smoothly and fits our day-to-day workflow. We especially liked the practical approach rather than being pushed into unnecessary changes. The final result feels like a meaningful step forward.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "268",
+    "rating": 5,
+    "name": "Archie Brooks",
+    "text": "The communication was clear, practical, and consistent throughout the project. The optimization work removed several small frustrations from the shopping experience. The team was responsive when we had questions and made revisions without making the process difficult. Overall, it was a very positive experience.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "269",
+    "rating": 5,
+    "name": "Ella Young",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The team identified friction points that our own team had been missing. The recommendations were easy to understand and the implementation was thoughtful. Overall, it was a very positive experience.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "270",
+    "rating": 5,
+    "name": "Evie Parker",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The custom functionality works smoothly and fits our day-to-day workflow. The team was responsive when we had questions and made revisions without making the process difficult. We would happily work with them again.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "271",
+    "rating": 5,
+    "name": "Layla Campbell",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The recommendations gave our team a useful framework for the next stage of growth. The improvements are noticeable across the customer journey, particularly on mobile. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "272",
+    "rating": 5,
+    "name": "Sophie Wood",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The optimization work removed several small frustrations from the shopping experience. The team was responsive when we had questions and made revisions without making the process difficult. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "273",
+    "rating": 5,
+    "name": "Poppy Pearson",
+    "text": "The team made the whole process feel much simpler than we expected. The store now feels more streamlined without losing the personality of the brand. The recommendations were easy to understand and the implementation was thoughtful. We would definitely recommend the team to another ecommerce business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "274",
+    "rating": 5,
+    "name": "Poppy Cooper",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The store now feels more streamlined without losing the personality of the brand. We came away with a much clearer understanding of what our store needed next. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "275",
+    "rating": 5,
+    "name": "Ella Stone",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The new theme gives the brand a much stronger presence. They paid attention to the small details that we had overlooked internally. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "276",
+    "rating": 5,
+    "name": "Arthur Davies",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The team helped us connect our marketing activity to clearer commercial goals. They paid attention to the small details that we had overlooked internally. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "277",
+    "rating": 5,
+    "name": "Erin Cole",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The changes made the path from product discovery to checkout much clearer. The improvements are noticeable across the customer journey, particularly on mobile. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "278",
+    "rating": 5,
+    "name": "Sebastian Jenkins",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The team identified friction points that our own team had been missing. The recommendations were easy to understand and the implementation was thoughtful. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "279",
+    "rating": 5,
+    "name": "James Mitchell",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The store now feels more streamlined without losing the personality of the brand. The improvements are noticeable across the customer journey, particularly on mobile. We would definitely recommend the team to another ecommerce business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "280",
+    "rating": 5,
+    "name": "Elsie Fisher",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The new theme gives the brand a much stronger presence. They paid attention to the small details that we had overlooked internally. We would definitely recommend the team to another ecommerce business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "281",
+    "rating": 5,
+    "name": "Harry Brooks",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The store now feels more streamlined without losing the personality of the brand. We came away with a much clearer understanding of what our store needed next. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "282",
+    "rating": 5,
+    "name": "Sophie Pearson",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The strategy gave us a much clearer picture of where to focus our marketing effort. The team was responsive when we had questions and made revisions without making the process difficult. Overall, it was a very positive experience.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "283",
+    "rating": 5,
+    "name": "Oscar Dixon",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The revised customer journey feels more natural and easier to follow. The recommendations were easy to understand and the implementation was thoughtful. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "284",
+    "rating": 5,
+    "name": "Noah Richardson",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. We now have a more practical growth plan instead of trying to do everything at once. They brought useful ideas to the table while still respecting our brand and existing setup. Overall, it was a very positive experience.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "285",
+    "rating": 4,
+    "name": "Esme Foster",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The store structure is clearer and the customer experience feels more modern. The team was responsive when we had questions and made revisions without making the process difficult. It was a strong improvement for our business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "286",
+    "rating": 4,
+    "name": "Jacob Phillips",
+    "text": "The communication was clear, practical, and consistent throughout the project. We now have a more focused product-page and checkout experience. We especially liked the practical approach rather than being pushed into unnecessary changes. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "287",
+    "rating": 5,
+    "name": "Arthur Shaw",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The store structure is clearer and the customer experience feels more modern. They brought useful ideas to the table while still respecting our brand and existing setup. The final result feels like a meaningful step forward.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "288",
+    "rating": 5,
+    "name": "Henry Parker",
+    "text": "The process was straightforward, with helpful updates at each stage. The custom functionality works smoothly and fits our day-to-day workflow. The improvements are noticeable across the customer journey, particularly on mobile. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "289",
+    "rating": 5,
+    "name": "Samuel Walker",
+    "text": "The team made the whole process feel much simpler than we expected. The team helped us connect our marketing activity to clearer commercial goals. They paid attention to the small details that we had overlooked internally. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "290",
+    "rating": 4,
+    "name": "Max Scott",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. We now have a more focused product-page and checkout experience. The improvements are noticeable across the customer journey, particularly on mobile. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "291",
+    "rating": 5,
+    "name": "Leo Bailey",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The recommendations gave our team a useful framework for the next stage of growth. They paid attention to the small details that we had overlooked internally. We would definitely recommend the team to another ecommerce business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "292",
+    "rating": 5,
+    "name": "Isabella Fisher",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The cleanup made the catalog and key pages much easier for customers to understand. We came away with a much clearer understanding of what our store needed next. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "293",
+    "rating": 4,
+    "name": "Phoebe Scott",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The optimization work removed several small frustrations from the shopping experience. They brought useful ideas to the table while still respecting our brand and existing setup. The final result feels like a meaningful step forward.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "294",
+    "rating": 5,
+    "name": "Ethan Bennett",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. We now have a more focused product-page and checkout experience. The team was responsive when we had questions and made revisions without making the process difficult. We would happily work with them again.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "295",
+    "rating": 5,
+    "name": "Jack Foster",
+    "text": "The process was straightforward, with helpful updates at each stage. The optimization work removed several small frustrations from the shopping experience. The team was responsive when we had questions and made revisions without making the process difficult. We are glad we chose to have the work handled professionally.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "296",
+    "rating": 5,
+    "name": "Theo James",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The team identified friction points that our own team had been missing. We especially liked the practical approach rather than being pushed into unnecessary changes. We would definitely recommend the team to another ecommerce business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "297",
+    "rating": 5,
+    "name": "Arthur Reed",
+    "text": "The communication was clear, practical, and consistent throughout the project. The team helped us connect our marketing activity to clearer commercial goals. The team was responsive when we had questions and made revisions without making the process difficult. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "298",
+    "rating": 5,
+    "name": "William Green",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The team identified friction points that our own team had been missing. They brought useful ideas to the table while still respecting our brand and existing setup. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "299",
+    "rating": 5,
+    "name": "Harry Foster",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The store is noticeably easier to navigate and feels faster on mobile. They brought useful ideas to the table while still respecting our brand and existing setup. We would happily work with them again.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "300",
+    "rating": 5,
+    "name": "Archie Stone",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The changes made the path from product discovery to checkout much clearer. The team was responsive when we had questions and made revisions without making the process difficult. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "301",
+    "rating": 5,
+    "name": "Amelia Harvey",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The optimization work removed several small frustrations from the shopping experience. The recommendations were easy to understand and the implementation was thoughtful. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "302",
+    "rating": 4,
+    "name": "Jack Roberts",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The revised customer journey feels more natural and easier to follow. We came away with a much clearer understanding of what our store needed next. We are pleased with the result and the support we received.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "303",
+    "rating": 5,
+    "name": "Sophie Fisher",
+    "text": "The communication was clear, practical, and consistent throughout the project. The Shopify store now feels much more polished and intentional. The recommendations were easy to understand and the implementation was thoughtful. The final result feels like a meaningful step forward.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "304",
+    "rating": 5,
+    "name": "Hannah Cole",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. We now have a more practical growth plan instead of trying to do everything at once. We came away with a much clearer understanding of what our store needed next. Overall, it was a very positive experience.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "305",
+    "rating": 5,
+    "name": "Isabella Ward",
+    "text": "The team made the whole process feel much simpler than we expected. The store is noticeably easier to navigate and feels faster on mobile. The recommendations were easy to understand and the implementation was thoughtful. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "306",
+    "rating": 5,
+    "name": "Isla Thomas",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The new theme gives the brand a much stronger presence. The team was responsive when we had questions and made revisions without making the process difficult. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "307",
+    "rating": 4,
+    "name": "Albie Hughes",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The custom functionality works smoothly and fits our day-to-day workflow. They paid attention to the small details that we had overlooked internally. We are glad we chose to have the work handled professionally.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "308",
+    "rating": 5,
+    "name": "Phoebe Young",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The team identified friction points that our own team had been missing. We especially liked the practical approach rather than being pushed into unnecessary changes. The final result feels like a meaningful step forward.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "309",
+    "rating": 5,
+    "name": "Phoebe Webb",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The custom functionality works smoothly and fits our day-to-day workflow. They paid attention to the small details that we had overlooked internally. It was a strong improvement for our business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "310",
+    "rating": 4,
+    "name": "Millie Reed",
+    "text": "The team made the whole process feel much simpler than we expected. The team identified friction points that our own team had been missing. The improvements are noticeable across the customer journey, particularly on mobile. We are pleased with the result and the support we received.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "311",
+    "rating": 5,
+    "name": "Lily James",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The strategy gave us a much clearer picture of where to focus our marketing effort. The team was responsive when we had questions and made revisions without making the process difficult. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "312",
+    "rating": 5,
+    "name": "Isabelle Phillips",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. We now have a more focused product-page and checkout experience. The recommendations were easy to understand and the implementation was thoughtful. We would definitely recommend the team to another ecommerce business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "313",
+    "rating": 5,
+    "name": "Lucy Pearson",
+    "text": "The team made the whole process feel much simpler than we expected. The changes made the path from product discovery to checkout much clearer. The team was responsive when we had questions and made revisions without making the process difficult. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "314",
+    "rating": 5,
+    "name": "Elsie Simpson",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. We now have a more focused product-page and checkout experience. We especially liked the practical approach rather than being pushed into unnecessary changes. The final result feels like a meaningful step forward.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "315",
+    "rating": 4,
+    "name": "Noah Graham",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The Shopify store now feels much more polished and intentional. The team was responsive when we had questions and made revisions without making the process difficult. We would happily work with them again.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "316",
+    "rating": 5,
+    "name": "George Cooper",
+    "text": "The team made the whole process feel much simpler than we expected. The store now feels more streamlined without losing the personality of the brand. They brought useful ideas to the table while still respecting our brand and existing setup. It was a strong improvement for our business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "317",
+    "rating": 5,
+    "name": "Daniel Davies",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The changes made the path from product discovery to checkout much clearer. We came away with a much clearer understanding of what our store needed next. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "318",
+    "rating": 5,
+    "name": "Jacob Young",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The optimization work removed several small frustrations from the shopping experience. The improvements are noticeable across the customer journey, particularly on mobile. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "319",
+    "rating": 5,
+    "name": "Maya Reed",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The strategy gave us a much clearer picture of where to focus our marketing effort. We especially liked the practical approach rather than being pushed into unnecessary changes. We are pleased with the result and the support we received.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "320",
+    "rating": 5,
+    "name": "Imogen Knight",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The store now feels more streamlined without losing the personality of the brand. We came away with a much clearer understanding of what our store needed next. It was a strong improvement for our business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "321",
+    "rating": 5,
+    "name": "Chloe Carter",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The custom functionality works smoothly and fits our day-to-day workflow. We came away with a much clearer understanding of what our store needed next. We would definitely recommend the team to another ecommerce business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "322",
+    "rating": 5,
+    "name": "Ella King",
+    "text": "The communication was clear, practical, and consistent throughout the project. The store now feels more streamlined without losing the personality of the brand. They brought useful ideas to the table while still respecting our brand and existing setup. The final result feels like a meaningful step forward.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "323",
+    "rating": 5,
+    "name": "Adam Brooks",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The revised customer journey feels more natural and easier to follow. They paid attention to the small details that we had overlooked internally. We are pleased with the result and the support we received.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "324",
+    "rating": 4,
+    "name": "Ruby Thomas",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The store structure is clearer and the customer experience feels more modern. The improvements are noticeable across the customer journey, particularly on mobile. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "325",
+    "rating": 5,
+    "name": "Ruby Murphy",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The new theme gives the brand a much stronger presence. Everything was handled in a structured way, which gave us confidence throughout the project. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "326",
+    "rating": 5,
+    "name": "Sophia Mitchell",
+    "text": "The process was straightforward, with helpful updates at each stage. The changes made the path from product discovery to checkout much clearer. The recommendations were easy to understand and the implementation was thoughtful. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "327",
+    "rating": 5,
+    "name": "Charlotte Stone",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The Shopify store now feels much more polished and intentional. They paid attention to the small details that we had overlooked internally. The final result feels like a meaningful step forward.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "328",
+    "rating": 5,
+    "name": "Leo Murphy",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The recommendations gave our team a useful framework for the next stage of growth. The improvements are noticeable across the customer journey, particularly on mobile. We would definitely recommend the team to another ecommerce business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "329",
+    "rating": 5,
+    "name": "Freddie Wilson",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The team helped us connect our marketing activity to clearer commercial goals. The recommendations were easy to understand and the implementation was thoughtful. We are glad we chose to have the work handled professionally.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "330",
+    "rating": 5,
+    "name": "Millie Morgan",
+    "text": "The communication was clear, practical, and consistent throughout the project. The strategy gave us a much clearer picture of where to focus our marketing effort. They paid attention to the small details that we had overlooked internally. We are pleased with the result and the support we received.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "331",
+    "rating": 5,
+    "name": "Lucas Holmes",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The team identified friction points that our own team had been missing. The team was responsive when we had questions and made revisions without making the process difficult. We are pleased with the result and the support we received.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "332",
+    "rating": 5,
+    "name": "Oscar Harris",
+    "text": "The communication was clear, practical, and consistent throughout the project. The team helped us connect our marketing activity to clearer commercial goals. Everything was handled in a structured way, which gave us confidence throughout the project. The final result feels like a meaningful step forward.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "333",
+    "rating": 5,
+    "name": "George Brooks",
+    "text": "The communication was clear, practical, and consistent throughout the project. We now have a more focused product-page and checkout experience. They paid attention to the small details that we had overlooked internally. We would happily work with them again.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "334",
+    "rating": 5,
+    "name": "Sophie Morgan",
+    "text": "Our experience with DelighTech Pro was professional from start to finish. The Shopify store now feels much more polished and intentional. We came away with a much clearer understanding of what our store needed next. We are pleased with the result and the support we received.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "335",
+    "rating": 5,
+    "name": "Henry Bell",
+    "text": "The process was straightforward, with helpful updates at each stage. The changes made the path from product discovery to checkout much clearer. The team was responsive when we had questions and made revisions without making the process difficult. The final result feels like a meaningful step forward.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "336",
+    "rating": 5,
+    "name": "Thomas Mills",
+    "text": "The communication was clear, practical, and consistent throughout the project. The revised customer journey feels more natural and easier to follow. They paid attention to the small details that we had overlooked internally. We are glad we chose to have the work handled professionally.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "337",
+    "rating": 5,
+    "name": "Esme Pearson",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The strategy gave us a much clearer picture of where to focus our marketing effort. The team was responsive when we had questions and made revisions without making the process difficult. The final result feels like a meaningful step forward.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "338",
+    "rating": 5,
+    "name": "Poppy Martin",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The new theme gives the brand a much stronger presence. We especially liked the practical approach rather than being pushed into unnecessary changes. It was a strong improvement for our business.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "339",
+    "rating": 5,
+    "name": "Layla Carter",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The cleanup made the catalog and key pages much easier for customers to understand. The recommendations were easy to understand and the implementation was thoughtful. It was a strong improvement for our business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "340",
+    "rating": 5,
+    "name": "Ruby Collins",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The new theme gives the brand a much stronger presence. We came away with a much clearer understanding of what our store needed next. We would happily work with them again.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "341",
+    "rating": 5,
+    "name": "Chloe Campbell",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The revised customer journey feels more natural and easier to follow. Everything was handled in a structured way, which gave us confidence throughout the project. Overall, it was a very positive experience.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "342",
+    "rating": 5,
+    "name": "Ava Edwards",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The team helped us connect our marketing activity to clearer commercial goals. The team was responsive when we had questions and made revisions without making the process difficult. It was a strong improvement for our business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "343",
+    "rating": 5,
+    "name": "Matilda Cole",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. We now have a more practical growth plan instead of trying to do everything at once. The team was responsive when we had questions and made revisions without making the process difficult. We are glad we chose to have the work handled professionally.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "344",
+    "rating": 5,
+    "name": "Grace Cole",
+    "text": "We had several moving parts, but the team kept everything organized and easy to follow. The changes made the path from product discovery to checkout much clearer. The recommendations were easy to understand and the implementation was thoughtful. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "345",
+    "rating": 5,
+    "name": "Hannah Brooks",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The new theme gives the brand a much stronger presence. The team was responsive when we had questions and made revisions without making the process difficult. Overall, it was a very positive experience.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "346",
+    "rating": 5,
+    "name": "Alexander Murray",
+    "text": "The process was straightforward, with helpful updates at each stage. We now have a more practical growth plan instead of trying to do everything at once. We especially liked the practical approach rather than being pushed into unnecessary changes. We would definitely recommend the team to another ecommerce business.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "347",
+    "rating": 5,
+    "name": "Lucy Marshall",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The custom functionality works smoothly and fits our day-to-day workflow. The improvements are noticeable across the customer journey, particularly on mobile. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Shopify Development"
+  },
+  {
+    "id": "348",
+    "rating": 5,
+    "name": "Emily Hunt",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The recommendations gave our team a useful framework for the next stage of growth. They paid attention to the small details that we had overlooked internally. We are pleased with the result and the support we received.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "349",
+    "rating": 5,
+    "name": "Sofia Collins",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The changes made the path from product discovery to checkout much clearer. We especially liked the practical approach rather than being pushed into unnecessary changes. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "350",
+    "rating": 5,
+    "name": "Mia Campbell",
+    "text": "It was refreshing to work with a team that listened carefully before recommending changes. The store is noticeably easier to navigate and feels faster on mobile. The improvements are noticeable across the customer journey, particularly on mobile. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "351",
+    "rating": 5,
+    "name": "Amelia Mason",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The revised customer journey feels more natural and easier to follow. We especially liked the practical approach rather than being pushed into unnecessary changes. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "352",
+    "rating": 5,
+    "name": "Abigail Owen",
+    "text": "We appreciated the attention to detail and the willingness to explain the reasoning behind the work. The changes made the path from product discovery to checkout much clearer. Everything was handled in a structured way, which gave us confidence throughout the project. We would definitely recommend the team to another ecommerce business.",
+    "service": "Conversion Optimization"
+  },
+  {
+    "id": "353",
+    "rating": 5,
+    "name": "Jessica King",
+    "text": "We were impressed by how quickly the team understood what we were trying to achieve. The cleanup made the catalog and key pages much easier for customers to understand. They paid attention to the small details that we had overlooked internally. The project delivered exactly the kind of improvement we were looking for.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "354",
+    "rating": 5,
+    "name": "Ava James",
+    "text": "The communication was clear, practical, and consistent throughout the project. The store now feels more streamlined without losing the personality of the brand. The recommendations were easy to understand and the implementation was thoughtful. It was a strong improvement for our business.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "355",
+    "rating": 5,
+    "name": "Ellie Bell",
+    "text": "We wanted a more polished online presence, and the team immediately understood the direction. The store is noticeably easier to navigate and feels faster on mobile. They brought useful ideas to the table while still respecting our brand and existing setup. The final result feels like a meaningful step forward.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "356",
+    "rating": 5,
+    "name": "Florence Edwards",
+    "text": "The project started with a few challenges, and the team handled them calmly and efficiently. The store now feels more streamlined without losing the personality of the brand. The improvements are noticeable across the customer journey, particularly on mobile. We are pleased with the result and the support we received.",
+    "service": "Store Optimization"
+  },
+  {
+    "id": "357",
+    "rating": 5,
+    "name": "Finley Robinson",
+    "text": "The team made the whole process feel much simpler than we expected. The recommendations gave our team a useful framework for the next stage of growth. They brought useful ideas to the table while still respecting our brand and existing setup. We would happily work with them again.",
+    "service": "Marketing & Growth"
+  },
+  {
+    "id": "358",
+    "rating": 4,
+    "name": "Poppy Hall",
+    "text": "The team made the whole process feel much simpler than we expected. We now have a more focused product-page and checkout experience. The team was responsive when we had questions and made revisions without making the process difficult. It was a strong improvement for our business.",
+    "service": "Conversion Optimization"
+  }
+]
