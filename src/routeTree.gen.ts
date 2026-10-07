@@ -16,6 +16,7 @@ import { Route as GrowthRouteImport } from './routes/growth'
 import { Route as InsightsRouteImport } from './routes/insights'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as ProcessRouteImport } from './routes/process'
+import { Route as ReviewsRouteImport } from './routes/reviews'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as ShopifyDevelopmentRouteImport } from './routes/shopify-development'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
@@ -57,6 +58,11 @@ const ProcessRoute = ProcessRouteImport.update({
   path: '/process',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ReviewsRoute = ReviewsRouteImport.update({
+  id: '/reviews',
+  path: '/reviews',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ServicesRoute = ServicesRouteImport.update({
   id: '/services',
   path: '/services',
@@ -91,6 +97,7 @@ export interface FileRoutesByFullPath {
   '/insights': typeof InsightsRoute
   '/privacy': typeof PrivacyRoute
   '/process': typeof ProcessRoute
+  '/reviews': typeof ReviewsRoute
   '/services': typeof ServicesRoute
   '/shopify-development': typeof ShopifyDevelopmentRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -105,6 +112,7 @@ export interface FileRoutesByTo {
   '/insights': typeof InsightsRoute
   '/privacy': typeof PrivacyRoute
   '/process': typeof ProcessRoute
+  '/reviews': typeof ReviewsRoute
   '/services': typeof ServicesRoute
   '/shopify-development': typeof ShopifyDevelopmentRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -120,6 +128,7 @@ export interface FileRoutesById {
   '/insights': typeof InsightsRoute
   '/privacy': typeof PrivacyRoute
   '/process': typeof ProcessRoute
+  '/reviews': typeof ReviewsRoute
   '/services': typeof ServicesRoute
   '/shopify-development': typeof ShopifyDevelopmentRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -136,6 +145,7 @@ export interface FileRouteTypes {
     | '/insights'
     | '/privacy'
     | '/process'
+    | '/reviews'
     | '/services'
     | '/shopify-development'
     | '/sitemap.xml'
@@ -150,6 +160,7 @@ export interface FileRouteTypes {
     | '/insights'
     | '/privacy'
     | '/process'
+    | '/reviews'
     | '/services'
     | '/shopify-development'
     | '/sitemap.xml'
@@ -164,6 +175,7 @@ export interface FileRouteTypes {
     | '/insights'
     | '/privacy'
     | '/process'
+    | '/reviews'
     | '/services'
     | '/shopify-development'
     | '/sitemap.xml'
@@ -179,6 +191,7 @@ export interface RootRouteChildren {
   InsightsRoute: typeof InsightsRoute
   PrivacyRoute: typeof PrivacyRoute
   ProcessRoute: typeof ProcessRoute
+  ReviewsRoute: typeof ReviewsRoute
   ServicesRoute: typeof ServicesRoute
   ShopifyDevelopmentRoute: typeof ShopifyDevelopmentRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
@@ -237,6 +250,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProcessRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/reviews': {
+      id: '/reviews'
+      path: '/reviews'
+      fullPath: '/reviews'
+      preLoaderRoute: typeof ReviewsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/services': {
       id: '/services'
       path: '/services'
@@ -283,6 +303,7 @@ const rootRouteChildren: RootRouteChildren = {
   InsightsRoute: InsightsRoute,
   PrivacyRoute: PrivacyRoute,
   ProcessRoute: ProcessRoute,
+  ReviewsRoute: ReviewsRoute,
   ServicesRoute: ServicesRoute,
   ShopifyDevelopmentRoute: ShopifyDevelopmentRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
