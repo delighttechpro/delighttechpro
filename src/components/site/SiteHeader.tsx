@@ -6,11 +6,11 @@ import { Cta } from "./ui";
 import logo from "@/assets/delighttech-logo.png.asset.json";
 
 const links = [
-  { to: "/services", label: "Services" },
+  { to: "/services", label: "Service" },
   { to: "/work", label: "Portfolio" },
-  { to: "/process", label: "Process" },
+  { to: "/reviews", label: "Reviews" },
   { to: "/about", label: "About" },
-  { to: "/insights", label: "Insights" },
+  { to: "/insights", label: "Insight" },
 ] as const;
 
 export function Logo({ className }: { className?: string }) {
