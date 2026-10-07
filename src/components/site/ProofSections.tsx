@@ -1,7 +1,8 @@
-import { ArrowUpRight, MessageSquareQuote } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { portfolio } from "./portfolio";
 import { salesVideos } from "./sales-media";
-import { Cta, Eyebrow, Reveal, SectionHead } from "./ui";
+import { Cta, Eyebrow, Reveal } from "./ui";
+export { ClientReviews as TestimonialsSection } from "./ClientReviews";
 
 export function PortfolioSection() {
   return (
@@ -59,29 +60,6 @@ export function SalesProofSection() {
           ))}
         </div>
         <p className="mt-6 text-xs text-muted-foreground">Screenshots and recordings supplied by DelightTech Pro. Results vary by store and period; past performance is not a guarantee.</p>
-      </div>
-    </section>
-  );
-}
-
-export function TestimonialsSection() {
-  return (
-    <section className="border-y border-border bg-ink py-24 md:py-32">
-      <div className="container-site">
-        <SectionHead eyebrow="Client Feedback" title="What Our Clients Say" intro="Strong partnerships are built on clear communication, thoughtful execution and a shared commitment to growth." />
-        <p className="mt-6 text-sm text-muted-foreground">Review placeholders — not client endorsements. Genuine, approved feedback will replace these entries.</p>
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {Array.from({ length: 12 }, (_, i) => (
-            <Reveal key={i} className="rounded-lg border border-border bg-card p-8">
-              <p className="eyebrow text-muted-foreground">Review placeholder / {i + 1}</p>
-              <MessageSquareQuote className="mt-6 h-8 w-8 text-primary" aria-hidden="true" />
-              <p className="my-6 text-lg">[Client Testimonial]</p>
-              <p className="font-semibold">[Client Name]</p>
-              <p className="mt-1 text-sm text-muted-foreground">[Company Name]</p>
-              <p className="mt-4 border-t border-border pt-4 text-sm text-muted-foreground">[Service Provided]</p>
-            </Reveal>
-          ))}
-        </div>
       </div>
     </section>
   );
