@@ -149,6 +149,10 @@ function OnePartner() {
           <Eyebrow className="text-ink-muted">Why one partner</Eyebrow>
           <h2 className="mt-5 text-4xl font-semibold md:text-7xl">One partner. The entire eCommerce growth journey.</h2>
           <p className="mt-6 max-w-2xl text-lg text-ink-muted">Over 6 years of experience, one accountable team. We connect your store, conversion strategy and marketing to drive tangible results — so every decision serves the same goal: growing your sales.</p>
+          <div className="mt-8 max-w-2xl border-l-2 border-primary pl-5">
+            <h3 className="text-xl font-semibold">Our sales assurance</h3>
+            <p className="mt-3 text-ink-muted">Sales are our commitment when we complete the agreed store improvements and marketing work together. We don't promise a fixed sales amount — the volume depends on your store, offer and campaigns.</p>
+          </div>
         </Reveal>
         <div className="mt-20 grid gap-px overflow-hidden rounded-[2rem] bg-ink-border sm:grid-cols-2 lg:grid-cols-6">
           {journey.map((j, i) => (
