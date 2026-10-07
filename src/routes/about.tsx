@@ -28,11 +28,14 @@ function Page() {
         ))}
       </section>
       <section className="container-site pb-24">
-        <SectionHead eyebrow="The team" title="Founder & team story" intro="This space is reserved for the real DelighTech Pro story — founders, team and background — to be added soon." />
-        <Reveal className="mt-10 grid gap-4 sm:grid-cols-3">
-          {[1, 2, 3].map((n) => (
-            <div key={n} className="aspect-[3/4] rounded-2xl border border-dashed border-foreground/20 bg-secondary" />
-          ))}
+        <SectionHead eyebrow="Our focus" title="Built around the eCommerce journey." intro="DelightTech Pro is an end-to-end Shopify and eCommerce growth partner. Our work connects strategy, store development, launch, optimization, marketing and scaling rather than treating each as a separate project." />
+        <Reveal className="mt-10 space-y-6 text-lg text-muted-foreground">
+          <p>For new founders, that means shaping the store around the offer, the customer and the buying journey before launch. For existing Shopify businesses, it means looking at design, usability, traffic and conversion together to identify what needs attention.</p>
+          <p>For growing brands, the focus shifts to a store and marketing system that can support the next stage: clear product storytelling, a smoother mobile experience, connected acquisition and retention, and decisions informed by performance.</p>
+          <div className="flex flex-wrap gap-3">
+            <Cta to="/process" variant="ghost">See Our Process</Cta>
+            <Cta to="/work" variant="ghost">Explore Our Portfolio</Cta>
+          </div>
         </Reveal>
       </section>
       <CtaBand />

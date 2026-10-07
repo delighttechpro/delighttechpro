@@ -13,3 +13,4 @@
 - Reuse shared portfolio and sales-proof sections on the home and work pages so client links and uploaded media stay consistent.
 - Store uploaded media and captured portfolio images as Lovable asset pointers to keep binaries outside the source repository.
 - Keep social contact links in one shared module so footer and contact page always agree.
+- Derive sitemap entries from explicit per-route staticData.sitemap decisions using the shared sitemap helper; this keeps public URLs aligned with the router.
