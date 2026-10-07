@@ -1,4 +1,5 @@
 # Website updates
+- [ ] Prepend the 300 newly uploaded reviews and replace Process in the top menu with a dedicated Reviews page; verify totals and navigation.
 - [x] Make the Live Chat launcher icon-only and verify the contact chooser.
 - [x] Add a professional FAQ section and verify expand/collapse.
 - [x] Add all 358 supplied reviews after the user's confirmation of authenticity, with actual category totals, gold stars and initials for missing photos; verify filters and pagination.
