@@ -6,3 +6,9 @@
 - [x] Add social and email contact links.
 - [x] Add testimonial section; genuine quotes require user-supplied reviews.
 - [x] Verify pages, links, media, and mobile layout.
+
+# SEO corrections
+- [ ] Install a route-derived sitemap and reference it from robots.txt.
+- [ ] Replace About and Insights placeholders with useful, factual content.
+- [ ] Resolve legal and testimonial content: awaiting approved policies and genuine client feedback.
+- [ ] Verify sitemap and page metadata; record completed SEO corrections.
