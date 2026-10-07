@@ -15,9 +15,9 @@
 - [x] Verify sitemap and all 11 pages' metadata; record the sitemap correction.
 
 # Requested presentation updates
-- [ ] Remove homepage Shopify pillars and Marketing & Growth sections, and tighten site-wide section spacing.
-- [ ] Change Live Chat to a choice of all supplied contacts with a generic chat icon.
-- [ ] Replace video disclaimer with truthful conditional sales-assurance copy and verify changes.
+- [x] Remove homepage Shopify pillars and Marketing & Growth sections, and tighten site-wide section spacing.
+- [x] Change Live Chat to a choice of all supplied contacts with a generic chat icon.
+- [x] Replace video disclaimer with truthful conditional sales-assurance copy and verify changes.
 - [x] Match the reference review form, rating controls and service filters; approved review cards await genuine client feedback.
 - [x] Replace the hero image with a professional service-focused presentation and confident six-plus-years copy; state the user's conditional sales assurance without a fixed amount.
 - [x] Move Recent Work after Why One Partner, followed by video-only Sales Proof.
