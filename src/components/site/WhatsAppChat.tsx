@@ -7,13 +7,12 @@ export function WhatsAppChat() {
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <Button aria-label="Live Chat — choose a contact option" className="fixed bottom-4 right-4 z-40 h-auto max-w-[calc(100vw-2rem)] gap-3 rounded-lg px-4 py-3 shadow-lift md:bottom-6 md:right-6">
-          <MessagesSquare aria-hidden="true" />
-          <span className="text-left"><span className="block font-semibold">Live Chat</span><span className="block text-xs font-normal">Respond within 1 hour</span></span>
+        <Button aria-label="Live Chat — choose a contact option" title="Live Chat" size="icon" className="fixed bottom-4 right-4 z-40 h-14 w-14 rounded-full shadow-lift md:bottom-6 md:right-6">
+          <MessagesSquare aria-hidden="true" className="h-6 w-6" />
         </Button>
       </PopoverTrigger>
       <PopoverContent side="top" align="end" sideOffset={12} className="w-80 max-w-[calc(100vw-2rem)] rounded-lg p-5" aria-label="Contact DelightTech Pro">
-        <h2 className="text-xl font-semibold">Let’s talk.</h2>
+        <h2 className="text-xl font-semibold">Live Chat</h2>
         <p className="mt-2 text-sm text-muted-foreground">Respond within 1 hour</p>
         <div className="mt-4 space-y-1">
           {socialLinks.map(({ label, href, Icon }) => (

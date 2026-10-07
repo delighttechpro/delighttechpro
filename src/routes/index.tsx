@@ -5,6 +5,7 @@ import { Cta, CtaBand, Eyebrow, Reveal, SectionHead, seo } from "@/components/si
 import { journey, process, services } from "@/components/site/data";
 import { cn } from "@/lib/utils";
 import { PortfolioSection, SalesProofSection, TestimonialsSection } from "@/components/site/ProofSections";
+import { FaqSection } from "@/components/site/FaqSection";
 
 export const Route = createFileRoute("/")({
   staticData: { sitemap: true },
@@ -29,6 +30,7 @@ function Home() {
       <ProcessSection />
       <TestimonialsSection />
       <WhySection />
+      <FaqSection />
       <CtaBand />
     </>
   );
