@@ -5,8 +5,21 @@ import { Eyebrow, Reveal } from "./ui";
 import { socialLinks } from "./social";
 import existingReviews from "./published-reviews.json";
 import additionalReviews from "./additional-reviews.json";
+import photo13 from "@/assets/review-client-13.png.asset.json";
+import photo14 from "@/assets/review-client-14.png.asset.json";
+import photo15 from "@/assets/review-client-15.png.asset.json";
+import photo16 from "@/assets/review-client-16.png.asset.json";
+import photo17 from "@/assets/review-client-17.png.asset.json";
+import photo18 from "@/assets/review-client-18.png.asset.json";
+import photo19 from "@/assets/review-client-19.png.asset.json";
+import photo20 from "@/assets/review-client-20.png.asset.json";
+import photo21 from "@/assets/review-client-21.png.asset.json";
 
-const publishedReviews = [...additionalReviews, ...existingReviews];
+const secondPagePhotos = [photo13, photo14, photo15, photo16, photo17, photo18, photo19, photo20, photo21];
+const publishedReviews = [...additionalReviews, ...existingReviews].map((review, index) => ({
+  ...review,
+  photo: index >= 9 && index < 18 ? secondPagePhotos[index - 9]?.url : undefined,
+}));
 
 const reviewServices = ["Shopify Development", "Conversion Optimization", "Marketing & Growth", "Store Optimization"];
 const inputClass = "mt-2 w-full rounded-md border border-input bg-background px-3 py-3 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-ring";
@@ -64,7 +77,7 @@ export function ClientReviews() {
           {visibleReviews.map((review) => (
             <article key={review.id} className="flex flex-col rounded-lg border border-border bg-card p-6">
               <div className="flex items-center gap-3">
-                <span aria-hidden="true" className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-secondary font-semibold text-secondary-foreground">{review.name.split(/\s+/).map((part) => part[0]).slice(0, 2).join("")}</span>
+                {review.photo ? <img src={review.photo} alt={`${review.name} portrait`} width={44} height={44} loading="lazy" className="h-11 w-11 shrink-0 rounded-full object-cover" /> : <span aria-hidden="true" className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-secondary font-semibold text-secondary-foreground">{review.name.split(/\s+/).map((part) => part[0]).slice(0, 2).join("")}</span>}
                 <div className="min-w-0"><h4 className="text-base font-semibold leading-snug">{review.name}</h4><p className="mt-1 text-xs text-muted-foreground">{review.service}</p></div>
               </div>
               <div className="mt-4 flex gap-1 text-rating" role="img" aria-label={`${review.rating} out of 5 stars`}>
