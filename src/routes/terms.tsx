@@ -2,7 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { PageHero, seo } from "@/components/site/ui";
 
 export const Route = createFileRoute("/terms")({
-  head: () => seo("Terms | DelighTech Pro", "Terms of use for the DelighTech Pro website."),
+  staticData: { sitemap: true },
+  head: () => seo("Terms | DelighTech Pro", "Terms of use for the DelighTech Pro website.", "/terms"),
   component: () => (
     <>
       <PageHero eyebrow="Legal" title="Terms" />

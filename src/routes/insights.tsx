@@ -2,7 +2,8 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Cta, CtaBand, PageHero, Reveal, seo } from "@/components/site/ui";
 
 export const Route = createFileRoute("/insights")({
-  head: () => seo("Insights — Shopify & eCommerce Growth | DelighTech Pro", "Practical thinking on Shopify development, conversion optimization and eCommerce growth."),
+  staticData: { sitemap: true },
+  head: () => seo("Insights — Shopify & eCommerce Growth | DelighTech Pro", "Practical thinking on Shopify development, conversion optimization and eCommerce growth.", "/insights"),
   component: Page,
 });
 

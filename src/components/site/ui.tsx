@@ -107,7 +107,8 @@ export function SectionHead({ eyebrow, title, intro, className }: { eyebrow: str
   );
 }
 
-export function seo(title: string, description: string) {
+export function seo(title: string, description: string, path: string) {
+  const url = new URL(path, "https://delighttechpro.lovable.app").href;
   return {
     meta: [
       { title },
@@ -115,7 +116,9 @@ export function seo(title: string, description: string) {
       { property: "og:title", content: title },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: url },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [{ rel: "canonical", href: url }],
   };
 }

@@ -79,14 +79,21 @@ export function SalesProofSection() {
 export function TestimonialsSection() {
   return (
     <section className="border-y border-border bg-ink py-24 md:py-32">
-      <div className="container-site grid gap-10 md:grid-cols-2 md:items-center">
+      <div className="container-site">
         <SectionHead eyebrow="Client Feedback" title="What Our Clients Say" intro="Strong partnerships are built on clear communication, thoughtful execution and a shared commitment to growth." />
-        <Reveal>
-          <MessageSquareQuote className="h-10 w-10 text-primary" />
-          <h3 className="mt-6 text-2xl font-semibold">Client stories, in their own words.</h3>
-          <p className="mt-4 max-w-lg text-muted-foreground">Client testimonials are being collected. Approved feedback will be shared here.</p>
-          <a href="mailto:delighttechpro@gmail.com?subject=Client%20feedback" className="mt-6 inline-flex items-center gap-2 font-medium text-primary hover:underline">Share your experience <ArrowUpRight className="h-4 w-4" /></a>
-        </Reveal>
+        <p className="mt-6 text-sm text-muted-foreground">Review placeholders — not client endorsements. Genuine, approved feedback will replace these entries.</p>
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {Array.from({ length: 12 }, (_, i) => (
+            <Reveal key={i} className="rounded-lg border border-border bg-card p-8">
+              <p className="eyebrow text-muted-foreground">Review placeholder / {i + 1}</p>
+              <MessageSquareQuote className="mt-6 h-8 w-8 text-primary" aria-hidden="true" />
+              <p className="my-6 text-lg">[Client Testimonial]</p>
+              <p className="font-semibold">[Client Name]</p>
+              <p className="mt-1 text-sm text-muted-foreground">[Company Name]</p>
+              <p className="mt-4 border-t border-border pt-4 text-sm text-muted-foreground">[Service Provided]</p>
+            </Reveal>
+          ))}
+        </div>
       </div>
     </section>
   );
