@@ -1,6 +1,6 @@
 # Website updates
-- [ ] Make the Live Chat launcher icon-only and verify the contact chooser.
-- [ ] Add a professional FAQ section and verify expand/collapse.
+- [x] Make the Live Chat launcher icon-only and verify the contact chooser.
+- [x] Add a professional FAQ section and verify expand/collapse.
 - [ ] Requested review totals and client photos: blocked pending genuine, approved feedback and photos; do not fabricate.
 - [x] Match reference website colors while preserving layout.
 - [x] Add uploaded brand logo.
