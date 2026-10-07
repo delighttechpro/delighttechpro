@@ -1,6 +1,6 @@
 import { ArrowUpRight, MessageSquareQuote } from "lucide-react";
 import { portfolio } from "./portfolio";
-import { salesImages, salesVideos } from "./sales-media";
+import { salesVideos } from "./sales-media";
 import { Cta, Eyebrow, Reveal, SectionHead } from "./ui";
 
 export function PortfolioSection() {
@@ -42,21 +42,9 @@ export function SalesProofSection() {
         <Reveal>
           <Eyebrow>Sales Proof</Eyebrow>
           <h2 id="sales-heading" className="mt-5 text-4xl font-semibold md:text-6xl">Behind the storefront.</h2>
-          <p className="mt-6 max-w-2xl text-lg text-muted-foreground">Shopify sales dashboards, order activity and store recordings.</p>
+          <p className="mt-6 max-w-2xl text-lg text-muted-foreground">Real store recordings. Tangible sales activity. See the results behind the work.</p>
         </Reveal>
-        <div className="mt-14 grid gap-6 md:grid-cols-2">
-          {salesImages.map((item) => (
-            <Reveal key={item.image}>
-              <figure className="overflow-hidden rounded-lg border border-border bg-card">
-                <a href={item.image} target="_blank" rel="noopener noreferrer" aria-label={`View full ${item.title}`} className="block aspect-[4/3] bg-muted focus-visible:outline-2 focus-visible:outline-ring">
-                  <img src={item.image} alt={item.alt} loading="lazy" className="h-full w-full object-contain" />
-                </a>
-                <figcaption className="flex items-center justify-between gap-4 border-t border-border p-5 font-medium">{item.title}<ArrowUpRight className="h-4 w-4 text-primary" /></figcaption>
-              </figure>
-            </Reveal>
-          ))}
-        </div>
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {salesVideos.map((item) => (
             <Reveal key={item.src}>
               <figure className="overflow-hidden rounded-lg border border-border bg-card">

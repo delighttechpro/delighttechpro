@@ -1,7 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, Check } from "lucide-react";
-import hero from "@/assets/hero-ecosystem.jpg";
+import { ArrowRight, Check, ShoppingBag, MousePointerClick, ChartNoAxesCombined } from "lucide-react";
 import { Cta, CtaBand, Eyebrow, Reveal, SectionHead, seo } from "@/components/site/ui";
 import { journey, process, services } from "@/components/site/data";
 import { cn } from "@/lib/utils";
@@ -11,8 +10,8 @@ export const Route = createFileRoute("/")({
   staticData: { sitemap: true },
   head: () =>
     seo(
-      "DelighTech Pro — Shopify Development & eCommerce Growth Agency",
-      "We build Shopify stores, then we make them grow. Shopify development, conversion optimization and marketing under one roof.",
+      "DelightTech Pro — Shopify Development & eCommerce Growth Agency",
+      "Over 6 years of Shopify and eCommerce experience. Store development, conversion optimization and marketing focused on sales growth.",
       "/",
     ),
   component: Home,
@@ -25,11 +24,11 @@ function Home() {
       <Trust />
       <ServicesExplorer />
       <OnePartner />
+      <PortfolioSection />
+      <SalesProofSection />
       <ShopifySection />
       <GrowthSection />
       <ProcessSection />
-      <PortfolioSection />
-      <SalesProofSection />
       <TestimonialsSection />
       <WhySection />
       <CtaBand />
@@ -39,27 +38,36 @@ function Home() {
 
 function Hero() {
   return (
-    <section className="relative overflow-hidden bg-ink pt-36 text-ink-foreground md:pt-44">
+    <section className="relative overflow-hidden bg-ink pb-12 pt-32 text-ink-foreground md:pb-16 md:pt-40">
       <div className="grid-lines pointer-events-none absolute inset-0 opacity-50" />
       <div className="container-site relative">
         <Reveal>
           <Eyebrow className="text-ink-muted">Shopify & eCommerce Growth Partner</Eyebrow>
-          <h1 className="mt-6 max-w-6xl text-[13vw] font-semibold leading-[0.92] md:text-8xl lg:text-[8.5rem]">
-            We build Shopify stores. <span className="text-primary">Then we make them grow.</span>
+          <h1 className="mt-6 max-w-6xl text-5xl font-semibold leading-[1.02] md:text-7xl lg:text-8xl">
+            DelightTech Pro.<br /><span className="text-primary">Built to sell. Ready to scale.</span>
           </h1>
         </Reveal>
         <Reveal delay={150} className="mt-10 grid gap-8 md:grid-cols-12 md:items-end">
           <p className="text-lg text-ink-muted md:col-span-6 md:text-xl">
-            DelighTech Pro combines Shopify development, conversion optimization and marketing — so your store doesn't just launch, it performs.
+            Over 6 years of hands-on eCommerce experience. We build Shopify stores, sharpen conversion and connect your marketing — with one clear focus: more sales for your brand.
           </p>
           <div className="flex flex-wrap gap-3 md:col-span-6 md:justify-end">
-            <Cta to="/contact">Start a Project</Cta>
+            <Cta to="/contact">Let's Grow Your Store</Cta>
             <Cta to="/services" variant="outlineInk">Explore Our Services</Cta>
           </div>
         </Reveal>
-        <Reveal delay={300} className="mt-16 md:mt-20">
-          <div className="overflow-hidden rounded-t-[2rem] border border-b-0 border-ink-border">
-            <img src={hero} alt="Shopify product page, mobile checkout and analytics dashboard" width={1536} height={1152} className="h-[52vw] max-h-[640px] w-full object-cover object-center" />
+        <Reveal delay={300} className="mt-12 border-y border-ink-border md:mt-16">
+          <div className="grid divide-y divide-ink-border md:grid-cols-3 md:divide-x md:divide-y-0">
+            {[
+              { Icon: ShoppingBag, title: "Build a store that sells", detail: "Shopify design & development", num: "01" },
+              { Icon: MousePointerClick, title: "Turn visitors into buyers", detail: "Conversion & customer experience", num: "02" },
+              { Icon: ChartNoAxesCombined, title: "Grow beyond the launch", detail: "Marketing, retention & scaling", num: "03" },
+            ].map(({ Icon, title, detail, num }) => (
+              <div key={num} className="flex items-start gap-4 py-7 md:px-6 first:md:pl-0">
+                <Icon className="mt-1 h-7 w-7 shrink-0 text-primary" aria-hidden="true" />
+                <div><p className="font-display text-xl font-semibold">{title}</p><p className="mt-2 text-sm text-ink-muted">{detail}</p></div>
+              </div>
+            ))}
           </div>
         </Reveal>
       </div>
@@ -140,7 +148,7 @@ function OnePartner() {
         <Reveal className="max-w-4xl">
           <Eyebrow className="text-ink-muted">Why one partner</Eyebrow>
           <h2 className="mt-5 text-4xl font-semibold md:text-7xl">One partner. The entire eCommerce growth journey.</h2>
-          <p className="mt-6 max-w-2xl text-lg text-ink-muted">No more coordinating a developer, a CRO consultant and a marketing agency who never talk to each other. We own the whole path — so every decision serves the same goal.</p>
+          <p className="mt-6 max-w-2xl text-lg text-ink-muted">Over 6 years of experience, one accountable team. We connect your store, conversion strategy and marketing to drive tangible results — so every decision serves the same goal: growing your sales.</p>
         </Reveal>
         <div className="mt-20 grid gap-px overflow-hidden rounded-[2rem] bg-ink-border sm:grid-cols-2 lg:grid-cols-6">
           {journey.map((j, i) => (
@@ -233,8 +241,8 @@ function ProcessSection() {
 function WhySection() {
   const points = [
     ["End-to-end", "Development, optimization and marketing under one roof."],
-    ["Conversion-focused", "The goal isn't a beautiful website. It's a website that performs."],
-    ["Shopify expertise", "Deep specialization in Shopify and eCommerce — not a side service."],
+    ["Conversion-focused", "Every buying journey is designed with a clear goal: turn more visitors into customers."],
+    ["6+ years of experience", "Hands-on Shopify and eCommerce expertise, with tangible results across our work."],
     ["Strategy before execution", "Every project starts with understanding the business and its customers."],
     ["Built for growth", "Infrastructure that supports where you're going, not just where you are."],
     ["Long-term partnership", "We stay after launch to keep improving and scaling."],

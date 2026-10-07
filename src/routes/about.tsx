@@ -17,7 +17,7 @@ const blocks = [
 function Page() {
   return (
     <>
-      <PageHero eyebrow="About" title="We exist to make eCommerce work harder." intro="Too many brands juggle a developer, a designer and an agency — and none of them own the result. We built DelighTech Pro to be the partner that does." >
+      <PageHero eyebrow="About" title="6+ years. One focus: your growth." intro="DelightTech Pro brings over 6 years of hands-on Shopify and eCommerce experience, delivering tangible results through connected development, conversion optimization and marketing." >
         <Cta to="/contact">Book a Consultation</Cta>
       </PageHero>
       <section className="container-site grid gap-6 py-24 md:grid-cols-2">
