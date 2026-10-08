@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Cta } from "./ui";
-import logo from "@/assets/delighttech-logo.png.asset.json";
+import logo from "@/assets/delighttech-logo.png";
 
 const links = [
   { to: "/services", label: "Service" },
@@ -16,7 +16,7 @@ const links = [
 export function Logo({ className }: { className?: string }) {
   return (
     <Link to="/" aria-label="DelightTech Pro home" className={cn("inline-flex shrink-0 items-center", className)}>
-      <img src={logo.url} alt="DelightTech Pro" width={1475} height={308} className="h-auto w-40 object-contain lg:w-48" />
+      <img src={logo} alt="DelightTech Pro" width={1475} height={308} className="h-auto w-40 object-contain lg:w-48" />
     </Link>
   );
 }
