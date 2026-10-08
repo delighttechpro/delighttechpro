@@ -19,7 +19,9 @@ const guides = [
 function Page() {
   return (
     <>
-      <PageHero eyebrow="Insights" title="Practical Shopify & eCommerce guidance." intro="Six starting points for planning a store, improving the buying journey and connecting marketing to business performance." />
+      <PageHero eyebrow="Insights" title="Practical Shopify & eCommerce guidance." intro="Six starting points for planning a store, improving the buying journey and connecting marketing to business performance.">
+        <Cta to="/articles">Read our Shopify help articles</Cta>
+      </PageHero>
       <section className="container-site grid gap-4 py-12 sm:grid-cols-2 lg:grid-cols-3">
         {guides.map((guide, i) => (
           <Reveal key={guide.title} delay={i * 50} className="flex flex-col rounded-2xl bg-card p-8">
