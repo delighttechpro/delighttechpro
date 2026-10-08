@@ -24,6 +24,7 @@
 - [Client Reviews](https://delighttechpro.lovable.app/reviews)
 - [About](https://delighttechpro.lovable.app/about)
 - [Insights](https://delighttechpro.lovable.app/insights)
+- [Shopify help articles](https://delighttechpro.lovable.app/articles)
 - [Contact](https://delighttechpro.lovable.app/contact)
 
 ## Contact
