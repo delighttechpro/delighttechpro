@@ -83,6 +83,43 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "author", content: "DelighTech Pro" },
+      { property: "og:site_name", content: "DelightTech Pro" },
+      { name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "ProfessionalService",
+              "@id": "https://delighttechpro.lovable.app/#org",
+              name: "DelightTech Pro",
+              url: "https://delighttechpro.lovable.app",
+              logo: "https://delighttechpro.lovable.app/favicon.png",
+              email: "delighttechpro@gmail.com",
+              description:
+                "Shopify and eCommerce growth partner: Shopify store development, store optimization, conversion rate optimization (CRO), Shopify SEO, paid ads and email marketing.",
+              areaServed: ["United States", "United Kingdom", "Canada", "Australia", "New Zealand", "Germany", "France", "Netherlands", "Sweden", "United Arab Emirates"].map((name) => ({ "@type": "Country", name })),
+              knowsAbout: ["Shopify development", "Shopify store design", "Shopify store optimization", "Conversion rate optimization", "Shopify SEO", "Meta ads", "Google ads", "TikTok ads", "Email marketing", "Klaviyo", "eCommerce growth"],
+              sameAs: [
+                "https://www.instagram.com/delighttechpro",
+                "https://www.tiktok.com/@delighttechpro",
+                "https://wa.me/message/YT3DVF2NHA3YM1",
+              ],
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://delighttechpro.lovable.app/#website",
+              name: "DelightTech Pro",
+              url: "https://delighttechpro.lovable.app",
+              publisher: { "@id": "https://delighttechpro.lovable.app/#org" },
+              inLanguage: "en",
+            },
+          ],
+        }),
+      },
     ],
     links: [
       {
