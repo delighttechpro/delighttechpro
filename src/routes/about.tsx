@@ -40,7 +40,25 @@ function Page() {
           </div>
         </Reveal>
       </section>
+      <BookingSection />
       <CtaBand />
     </>
+  );
+}
+
+function BookingSection() {
+  return (
+    <section className="container-site py-12 md:py-16">
+      <SectionHead eyebrow="Book a session" title="Book a Session with Us." intro="Pick a time that suits you and we'll talk through your store, what's holding it back and what to do next — no obligation." />
+      <Reveal className="mt-10 overflow-hidden rounded-[2rem] bg-card p-4 md:p-6">
+        <div className="h-[640px] w-full md:h-[720px]">
+          <CalendlyEmbed />
+        </div>
+        <p className="px-2 pb-1 pt-4 text-sm text-muted-foreground">
+          Calendar not loading?{" "}
+          <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="text-primary underline">Open the booking page</a>.
+        </p>
+      </Reveal>
+    </section>
   );
 }
