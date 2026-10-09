@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Cta, CtaBand, PageHero, Reveal, SectionHead, seo } from "@/components/site/ui";
+import { CALENDLY_URL, CalendlyEmbed } from "@/components/site/CalendlyEmbed";
 
 export const Route = createFileRoute("/about")({
   staticData: { sitemap: true },
