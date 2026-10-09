@@ -41,8 +41,8 @@ export function CalendlyEmbed({ url = CALENDLY_URL, className }: { url?: string;
 
   useEffect(() => {
     const el = ref.current;
-    if (!el || el.dataset.calendlyInitialized === "true") return;
-    el.dataset.calendlyInitialized = "true";
+    if (!el || el.getAttribute("data-calendly-initialized") === "true") return;
+    el.setAttribute("data-calendly-initialized", "true");
     let active = true;
     loadWidget().then(() => {
       if (!active || !window.Calendly) return;
