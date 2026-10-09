@@ -53,7 +53,7 @@ function Hero() {
           </p>
           <div className="flex flex-wrap gap-3 md:col-span-6 md:justify-end">
             <Cta to="/contact">Let's Grow Your Store</Cta>
-            <Cta to="/services" variant="outlineInk">Explore Our Services</Cta>
+            <Cta href={CALENDLY_URL} variant="outlineInk">Book a Session with Us</Cta>
           </div>
         </Reveal>
         <Reveal delay={300} className="mt-12 border-y border-ink-border md:mt-10">
