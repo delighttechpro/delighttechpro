@@ -27,7 +27,11 @@ export function Reveal({ children, className, delay = 0 }: { children: ReactNode
   );
 }
 
-type CtaProps = { to: string; children: ReactNode; variant?: "primary" | "ghost" | "dark" | "outlineInk"; className?: string };
+type CtaProps = {
+  children: ReactNode;
+  variant?: "primary" | "ghost" | "dark" | "outlineInk";
+  className?: string;
+} & ({ to: string; href?: never } | { href: string; to?: never });
 
 const variants = {
   primary: "bg-primary text-primary-foreground hover:glow-primary",
@@ -36,18 +40,29 @@ const variants = {
   outlineInk: "border border-ink-border text-ink-foreground hover:border-ink-foreground",
 };
 
-export function Cta({ to, children, variant = "primary", className }: CtaProps) {
+const ctaClass = "group inline-flex items-center gap-2 rounded-full px-6 py-3.5 text-sm font-medium transition-all duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring";
+
+function CtaInner({ children }: { children: ReactNode }) {
   return (
-    <Link
-      to={to}
-      className={cn(
-        "group inline-flex items-center gap-2 rounded-full px-6 py-3.5 text-sm font-medium transition-all duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
-        variants[variant],
-        className,
-      )}
-    >
+    <>
       {children}
       <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+    </>
+  );
+}
+
+export function Cta({ to, href, children, variant = "primary", className }: CtaProps) {
+  const cls = cn(ctaClass, variants[variant], className);
+  if (href) {
+    return (
+      <a href={href} target="_blank" rel="noopener noreferrer" className={cls}>
+        <CtaInner>{children}</CtaInner>
+      </a>
+    );
+  }
+  return (
+    <Link to={to ?? "/"} className={cls}>
+      <CtaInner>{children}</CtaInner>
     </Link>
   );
 }

@@ -6,6 +6,7 @@ import { journey, process, services } from "@/components/site/data";
 import { cn } from "@/lib/utils";
 import { PortfolioSection, SalesProofSection, TestimonialsSection } from "@/components/site/ProofSections";
 import { FaqSection } from "@/components/site/FaqSection";
+import { CALENDLY_URL } from "@/components/site/CalendlyEmbed";
 
 export const Route = createFileRoute("/")({
   staticData: { sitemap: true },
@@ -53,7 +54,7 @@ function Hero() {
           </p>
           <div className="flex flex-wrap gap-3 md:col-span-6 md:justify-end">
             <Cta to="/contact">Let's Grow Your Store</Cta>
-            <Cta to="/services" variant="outlineInk">Explore Our Services</Cta>
+            <Cta href={CALENDLY_URL} variant="outlineInk">Book a Session with Us</Cta>
           </div>
         </Reveal>
         <Reveal delay={300} className="mt-12 border-y border-ink-border md:mt-10">
