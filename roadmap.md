@@ -1,6 +1,6 @@
 # Website updates
 - [x] Add ten supplied portraits: one Conversion Optimization, eight Marketing & Growth, one Store Optimization; tests passed and all nine portraits per service page loaded on desktop and mobile.
-- [ ] Show actual reviewer countries; awaiting supplied information if absent from review records.
+- [ ] Apply all 658 owner-supplied country assignments and verify filters, pagination and mobile display.
 - [x] Prepend the 300 newly uploaded reviews and replace Process in the top menu with a dedicated Reviews page; verified 658 reviews, newest-first order, gold stars, filters and pagination.
 - [x] Make the Live Chat launcher icon-only and verify the contact chooser.
 - [x] Add a professional FAQ section and verify expand/collapse.
