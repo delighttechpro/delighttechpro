@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as FreeStoreAuditRouteImport } from './routes/free-store-audit'
 import { Route as GrowthRouteImport } from './routes/growth'
 import { Route as InsightsRouteImport } from './routes/insights'
 import { Route as PrivacyRouteImport } from './routes/privacy'
@@ -38,6 +39,11 @@ const AboutRoute = AboutRouteImport.update({
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FreeStoreAuditRoute = FreeStoreAuditRouteImport.update({
+  id: '/free-store-audit',
+  path: '/free-store-audit',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GrowthRoute = GrowthRouteImport.update({
@@ -105,6 +111,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/free-store-audit': typeof FreeStoreAuditRoute
   '/growth': typeof GrowthRoute
   '/insights': typeof InsightsRoute
   '/privacy': typeof PrivacyRoute
@@ -122,6 +129,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/free-store-audit': typeof FreeStoreAuditRoute
   '/growth': typeof GrowthRoute
   '/insights': typeof InsightsRoute
   '/privacy': typeof PrivacyRoute
@@ -140,6 +148,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/free-store-audit': typeof FreeStoreAuditRoute
   '/growth': typeof GrowthRoute
   '/insights': typeof InsightsRoute
   '/privacy': typeof PrivacyRoute
@@ -159,6 +168,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/contact'
+    | '/free-store-audit'
     | '/growth'
     | '/insights'
     | '/privacy'
@@ -176,6 +186,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/contact'
+    | '/free-store-audit'
     | '/growth'
     | '/insights'
     | '/privacy'
@@ -193,6 +204,7 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/contact'
+    | '/free-store-audit'
     | '/growth'
     | '/insights'
     | '/privacy'
@@ -211,6 +223,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   ContactRoute: typeof ContactRoute
+  FreeStoreAuditRoute: typeof FreeStoreAuditRoute
   GrowthRoute: typeof GrowthRoute
   InsightsRoute: typeof InsightsRoute
   PrivacyRoute: typeof PrivacyRoute
@@ -246,6 +259,13 @@ declare module '@tanstack/react-router' {
       path: '/contact'
       fullPath: '/contact'
       preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/free-store-audit': {
+      id: '/free-store-audit'
+      path: '/free-store-audit'
+      fullPath: '/free-store-audit'
+      preLoaderRoute: typeof FreeStoreAuditRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/growth': {
@@ -339,6 +359,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   ContactRoute: ContactRoute,
+  FreeStoreAuditRoute: FreeStoreAuditRoute,
   GrowthRoute: GrowthRoute,
   InsightsRoute: InsightsRoute,
   PrivacyRoute: PrivacyRoute,
