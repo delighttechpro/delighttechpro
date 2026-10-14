@@ -28,11 +28,11 @@ export const salesImages = [
 ];
 
 export const salesVideos = [
-  { src: video1, webm: webm1, poster: poster1, title: "Shopify sales recording 01" },
-  { src: video2, webm: webm2, poster: poster2, title: "Shopify sales recording 02" },
-  { src: video3, webm: webm3, poster: poster3, title: "Shopify sales recording 03" },
-  { src: video4, webm: webm4, poster: poster4, title: "Shopify sales recording 04" },
-  { src: video5, webm: webm5, poster: poster5, title: "Shopify sales recording 05" },
-  { src: video6, webm: webm6, poster: poster6, title: "Shopify sales recording 06" },
-  { src: video7, webm: webm7, poster: poster7, title: "Shopify sales recording 07" },
+  { src: video1, webm: webm1, poster: poster1, title: "Client revenue growth — Case study 01" },
+  { src: video2, webm: webm2, poster: poster2, title: "Client revenue growth — Case study 02" },
+  { src: video3, webm: webm3, poster: poster3, title: "Client revenue growth — Case study 03" },
+  { src: video4, webm: webm4, poster: poster4, title: "Client revenue growth — Case study 04" },
+  { src: video5, webm: webm5, poster: poster5, title: "Client revenue growth — Case study 05" },
+  { src: video6, webm: webm6, poster: poster6, title: "Client revenue growth — Case study 06" },
+  { src: video7, webm: webm7, poster: poster7, title: "Client revenue growth — Case study 07" },
 ];

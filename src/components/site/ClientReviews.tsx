@@ -23,11 +23,15 @@ import photo18 from "@/assets/review-client-18.png";
 import photo19 from "@/assets/review-client-19.png";
 import photo20 from "@/assets/review-client-20.png";
 import photo21 from "@/assets/review-client-21.png";
+import photo22 from "@/assets/review-client-22.png";
+import photo23 from "@/assets/review-client-23.png";
+import photo24 from "@/assets/review-client-24.png";
 
 const reviewPhotos = [photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11, photo12, photo13, photo14, photo15, photo16, photo17, photo18, photo19, photo20, photo21];
+const photoSlots: Record<number, string> = { 21: photo22, 22: photo23, 23: photo24 };
 const publishedReviews = [...additionalReviews, ...existingReviews].map((review, index) => ({
   ...review,
-  photo: reviewPhotos[index],
+  photo: reviewPhotos[index] ?? photoSlots[index],
 }));
 
 const reviewServices = ["Shopify Development", "Conversion Optimization", "Marketing & Growth", "Store Optimization"];

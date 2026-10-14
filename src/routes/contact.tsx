@@ -60,7 +60,7 @@ function Contact() {
           </ul>
           <div className="mt-10 space-y-4 border-t border-ink-border pt-8">
             {socialLinks.map(({ label, href, Icon }) => (
-              <a key={label} href={href} target={label === "Email" ? undefined : "_blank"} rel="noopener noreferrer" className="flex items-center gap-3 break-all text-ink-foreground hover:text-primary"><Icon className="h-5 w-5 shrink-0" />{label === "Email" ? "delighttechpro@gmail.com" : label}<ArrowUpRight className="ml-auto h-4 w-4 shrink-0" /></a>
+              <a key={label} href={href} target={label === "Email" ? undefined : "_blank"} rel="noopener noreferrer" className="flex items-center gap-3 break-all text-ink-foreground hover:text-primary"><Icon className="h-5 w-5 shrink-0" />{label === "Email" ? "info@delighttechpro.com" : label}<ArrowUpRight className="ml-auto h-4 w-4 shrink-0" /></a>
             ))}
           </div>
         </Reveal>

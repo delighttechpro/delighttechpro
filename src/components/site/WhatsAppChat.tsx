@@ -19,7 +19,7 @@ export function WhatsAppChat() {
             <Button key={label} asChild variant="ghost" className="h-auto w-full justify-start gap-3 px-3 py-3">
               <a href={href} target={label === "Email" ? undefined : "_blank"} rel="noopener noreferrer">
                 <Icon aria-hidden="true" className="text-primary" />
-                <span className="min-w-0 whitespace-normal text-left"><span className="block">{label}</span>{label === "Email" && <span className="block break-all text-xs text-muted-foreground">delighttechpro@gmail.com</span>}</span>
+                <span className="min-w-0 whitespace-normal text-left"><span className="block">{label}</span>{label === "Email" && <span className="block break-all text-xs text-muted-foreground">info@delighttechpro.com</span>}</span>
                 <ArrowUpRight className="ml-auto" aria-hidden="true" />
               </a>
             </Button>
