@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { Star, Mail, MapPin, ChevronLeft, ChevronRight, ThumbsUp } from "lucide-react";
+import { Star, Mail, MapPin, ThumbsUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Eyebrow, Reveal } from "./ui";
 import { socialLinks } from "./social";
@@ -67,11 +67,11 @@ const inputClass = "mt-2 w-full rounded-md border border-input bg-background px-
 export function ClientReviews() {
   const [active, setActive] = useState("All");
   const [rating, setRating] = useState(0);
-  const [page, setPage] = useState(1);
+  const [visibleCount, setVisibleCount] = useState(15);
   const filteredReviews = active === "All" ? publishedReviews : publishedReviews.filter((review) => review.service === active);
-  const pageSize = 9;
-  const totalPages = Math.ceil(filteredReviews.length / pageSize);
-  const visibleReviews = filteredReviews.slice((page - 1) * pageSize, page * pageSize);
+  const batchSize = 15;
+  const visibleReviews = filteredReviews.slice(0, visibleCount);
+  const hasMore = visibleCount < filteredReviews.length;
   const counts = (service: string) => service === "All" ? publishedReviews.length : publishedReviews.filter((review) => review.service === service).length;
   const email = socialLinks.find((link) => link.label === "Email");
 
@@ -111,7 +111,7 @@ export function ClientReviews() {
         </Reveal>
         <div className="mt-10 flex flex-wrap items-start justify-between gap-6">
           <h3 className="text-2xl font-semibold">Client Reviews <span className="text-muted-foreground">({publishedReviews.length})</span></h3>
-          <div className="flex max-w-full flex-wrap gap-2" role="group" aria-label="Filter client reviews">{["All", ...reviewServices].map((service) => <Button key={service} type="button" variant={active === service ? "default" : "ghost"} aria-pressed={active === service} onClick={() => { setActive(service); setPage(1); }} className="h-auto whitespace-normal rounded-full px-4 py-2 text-xs">{service} ({counts(service)})</Button>)}</div>
+          <div className="flex max-w-full flex-wrap gap-2" role="group" aria-label="Filter client reviews">{["All", ...reviewServices].map((service) => <Button key={service} type="button" variant={active === service ? "default" : "ghost"} aria-pressed={active === service} onClick={() => { setActive(service); setVisibleCount(15); }} className="h-auto whitespace-normal rounded-full px-4 py-2 text-xs">{service} ({counts(service)})</Button>)}</div>
         </div>
         <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3" aria-label="Published client reviews">
           {visibleReviews.map((review) => (
@@ -139,13 +139,11 @@ export function ClientReviews() {
             </article>
           ))}
         </div>
-        <div className="mt-8 flex flex-wrap items-center justify-between gap-4 border-t border-border pt-6">
-          <p className="text-sm text-muted-foreground" aria-live="polite">Showing {(page - 1) * pageSize + 1}–{Math.min(page * pageSize, filteredReviews.length)} of {filteredReviews.length} reviews</p>
-          <nav className="flex items-center gap-3" aria-label="Review pages">
-            <Button type="button" variant="outline" size="icon" aria-label="Previous review page" title="Previous review page" disabled={page === 1} onClick={() => setPage((current) => current - 1)}><ChevronLeft /></Button>
-            <span className="min-w-20 text-center text-sm">{page} / {totalPages}</span>
-            <Button type="button" variant="outline" size="icon" aria-label="Next review page" title="Next review page" disabled={page === totalPages} onClick={() => setPage((current) => current + 1)}><ChevronRight /></Button>
-          </nav>
+        <div className="mt-8 flex flex-col items-center gap-3 border-t border-border pt-6">
+          <p className="text-sm text-muted-foreground" aria-live="polite">Showing {Math.min(visibleCount, filteredReviews.length)} of {filteredReviews.length} reviews</p>
+          {hasMore && (
+            <Button type="button" variant="outline" className="h-11 px-8" aria-label="Show 15 more reviews" title="Show 15 more reviews" onClick={() => setVisibleCount((current) => current + batchSize)}>Read More</Button>
+          )}
         </div>
       </div>
     </section>
