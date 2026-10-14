@@ -1,11 +1,12 @@
 import { useState, type FormEvent } from "react";
-import { Star, Mail, MapPin, ChevronLeft, ChevronRight } from "lucide-react";
+import { Star, Mail, MapPin, ChevronLeft, ChevronRight, ThumbsUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Eyebrow, Reveal } from "./ui";
 import { socialLinks } from "./social";
 import existingReviews from "./published-reviews.json";
 import additionalReviews from "./additional-reviews.json";
 import reviewerCountries from "./reviewer-countries.json";
+import reviewDetails from "./review-details.json";
 import photo4 from "@/assets/review-client-4.png";
 import photo5 from "@/assets/review-client-5.png";
 import photo6 from "@/assets/review-client-6.png";
@@ -52,10 +53,12 @@ const photoSlots: Record<number, string> = {
   25: photo40.url,
 };
 const countriesByReviewId: Record<string, string> = reviewerCountries;
+const detailsByReviewId: Record<string, { date: string; price: string; delivery: string; helpful: number }> = reviewDetails;
 export const publishedReviews = [...additionalReviews, ...existingReviews].map((review, index) => ({
   ...review,
   photo: reviewPhotos[index] ?? photoSlots[index],
   country: countriesByReviewId[review.id],
+  details: detailsByReviewId[review.id],
 }));
 
 const reviewServices = ["Shopify Development", "Conversion Optimization", "Marketing & Growth", "Store Optimization"];
@@ -117,10 +120,22 @@ export function ClientReviews() {
                 {review.photo ? <img src={review.photo} alt={`${review.name} portrait`} width={44} height={44} loading="lazy" className="h-11 w-11 shrink-0 rounded-full object-cover" /> : <span aria-hidden="true" className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-secondary font-semibold text-secondary-foreground">{review.name.split(/\s+/).map((part) => part[0]).slice(0, 2).join("")}</span>}
                 <div className="min-w-0"><h4 className="text-base font-semibold leading-snug">{review.name}</h4><p className="mt-1 text-xs text-muted-foreground">{review.service}</p>{review.country && <p className="mt-1 flex items-start gap-1 text-xs text-muted-foreground"><MapPin aria-hidden="true" className="h-3 w-3 shrink-0" /><span>{review.country}</span></p>}</div>
               </div>
-              <div className="mt-4 flex gap-1 text-rating" role="img" aria-label={`${review.rating} out of 5 stars`}>
-                {[1, 2, 3, 4, 5].map((star) => <Star key={star} aria-hidden="true" className={`h-4 w-4 ${star <= review.rating ? "fill-current" : ""}`} />)}
+              <div className="mt-4 flex items-center justify-between gap-3">
+                <div className="flex gap-1 text-rating" role="img" aria-label={`${review.rating} out of 5 stars`}>
+                  {[1, 2, 3, 4, 5].map((star) => <Star key={star} aria-hidden="true" className={`h-4 w-4 ${star <= review.rating ? "fill-current" : ""}`} />)}
+                </div>
+                {review.details && <span className="text-xs text-muted-foreground">{review.details.date}</span>}
               </div>
               <p className="mt-4 text-sm leading-relaxed text-foreground">{review.text}</p>
+              {review.details && (
+                <div className="mt-auto pt-5">
+                  <dl className="grid grid-cols-2 gap-3 border-t border-border pt-4 text-xs">
+                    <div><dt className="text-muted-foreground">Price</dt><dd className="mt-1 font-medium">{review.details.price}</dd></div>
+                    <div><dt className="text-muted-foreground">Duration</dt><dd className="mt-1 font-medium">{review.details.delivery}</dd></div>
+                  </dl>
+                  <p className="mt-3 flex items-center gap-1 text-xs text-muted-foreground"><ThumbsUp aria-hidden="true" className="h-3 w-3" />Helpful ({review.details.helpful})</p>
+                </div>
+              )}
             </article>
           ))}
         </div>
