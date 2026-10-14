@@ -6,6 +6,7 @@ import { journey, process, services } from "@/components/site/data";
 import { cn } from "@/lib/utils";
 import { PortfolioSection, SalesProofSection, TestimonialsSection } from "@/components/site/ProofSections";
 import { FaqSection } from "@/components/site/FaqSection";
+import { HealthCheckSection } from "@/components/site/HealthCheck";
 import { CALENDLY_URL } from "@/components/site/CalendlyEmbed";
 
 export const Route = createFileRoute("/")({
@@ -24,6 +25,7 @@ function Home() {
     <>
       <Hero />
       <Trust />
+      <HealthCheckSection />
       <ServicesExplorer />
       <OnePartner />
       <PortfolioSection />
