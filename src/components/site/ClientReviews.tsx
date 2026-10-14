@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { Star, Mail, MapPin, ChevronLeft, ChevronRight, ThumbsUp } from "lucide-react";
+import { Star, Mail, MapPin, ThumbsUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Eyebrow, Reveal } from "./ui";
 import { socialLinks } from "./social";
@@ -67,11 +67,11 @@ const inputClass = "mt-2 w-full rounded-md border border-input bg-background px-
 export function ClientReviews() {
   const [active, setActive] = useState("All");
   const [rating, setRating] = useState(0);
-  const [page, setPage] = useState(1);
+  const [visibleCount, setVisibleCount] = useState(15);
   const filteredReviews = active === "All" ? publishedReviews : publishedReviews.filter((review) => review.service === active);
-  const pageSize = 9;
-  const totalPages = Math.ceil(filteredReviews.length / pageSize);
-  const visibleReviews = filteredReviews.slice((page - 1) * pageSize, page * pageSize);
+  const batchSize = 15;
+  const visibleReviews = filteredReviews.slice(0, visibleCount);
+  const hasMore = visibleCount < filteredReviews.length;
   const counts = (service: string) => service === "All" ? publishedReviews.length : publishedReviews.filter((review) => review.service === service).length;
   const email = socialLinks.find((link) => link.label === "Email");
 
