@@ -33,24 +33,24 @@ import photo26 from "@/assets/review-client-26.png";
 import photo27 from "@/assets/review-client-27.png";
 import photo28 from "@/assets/review-client-28.png";
 import photo29 from "@/assets/review-client-29.png";
-import photo31 from "@/assets/review-client-31.png.asset.json";
-import photo32 from "@/assets/review-client-32.png.asset.json";
-import photo33 from "@/assets/review-client-33.png.asset.json";
-import photo34 from "@/assets/review-client-34.png.asset.json";
-import photo35 from "@/assets/review-client-35.png.asset.json";
-import photo36 from "@/assets/review-client-36.png.asset.json";
-import photo37 from "@/assets/review-client-37.png.asset.json";
-import photo38 from "@/assets/review-client-38.png.asset.json";
-import photo39 from "@/assets/review-client-39.png.asset.json";
-import photo40 from "@/assets/review-client-40.png.asset.json";
+import photo31 from "@/assets/review-client-31.png";
+import photo32 from "@/assets/review-client-32.png";
+import photo33 from "@/assets/review-client-33.png";
+import photo34 from "@/assets/review-client-34.png";
+import photo35 from "@/assets/review-client-35.png";
+import photo36 from "@/assets/review-client-36.png";
+import photo37 from "@/assets/review-client-37.png";
+import photo38 from "@/assets/review-client-38.png";
+import photo39 from "@/assets/review-client-39.png";
+import photo40 from "@/assets/review-client-40.png";
 
 const reviewPhotos = [photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11, photo12, photo13, photo14, photo15, photo16, photo17, photo18, photo19, photo20, photo21];
 const photoSlots: Record<number, string> = {
   18: photo23, 19: photo25, 20: photo24, 21: photo22, 42: photo26, 46: photo27, 51: photo28, 54: photo29,
-  59: photo31.url,
-  23: photo32.url, 26: photo33.url, 28: photo34.url, 29: photo35.url,
-  30: photo36.url, 49: photo37.url, 50: photo38.url, 53: photo39.url,
-  25: photo40.url,
+  59: photo31,
+  23: photo32, 26: photo33, 28: photo34, 29: photo35,
+  30: photo36, 49: photo37, 50: photo38, 53: photo39,
+  25: photo40,
 };
 const countriesByReviewId: Record<string, string> = reviewerCountries;
 const detailsByReviewId: Record<string, { date: string; price: string; delivery: string; helpful: number }> = reviewDetails;
