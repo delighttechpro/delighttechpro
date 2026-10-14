@@ -98,7 +98,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
               name: "DelightTech Pro",
               url: "https://delighttechpro.lovable.app",
               logo: "https://delighttechpro.lovable.app/favicon.png",
-              email: "delighttechpro@gmail.com",
+              email: "info@delighttechpro.com",
               description:
                 "Shopify and eCommerce growth partner: Shopify store development, store optimization, conversion rate optimization (CRO), Shopify SEO, paid ads and email marketing.",
               areaServed: ["United States", "United Kingdom", "Canada", "Australia", "New Zealand", "Germany", "France", "Netherlands", "Sweden", "United Arab Emirates"].map((name) => ({ "@type": "Country", name })),

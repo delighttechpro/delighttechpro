@@ -36,7 +36,7 @@ export function SiteFooter() {
           <p className="eyebrow text-ink-muted">Social</p>
           <ul className="mt-5 space-y-3 text-sm text-ink-muted">
             {socialLinks.map(({ label, href, Icon }) => (
-              <li key={label}><a href={href} target={label === "Email" ? undefined : "_blank"} rel="noopener noreferrer" className="inline-flex items-center gap-2 break-all hover:text-primary"><Icon className="h-4 w-4 shrink-0" />{label === "Email" ? "info.delighttechpro.com" : label}</a></li>
+              <li key={label}><a href={href} target={label === "Email" ? undefined : "_blank"} rel="noopener noreferrer" className="inline-flex items-center gap-2 break-all hover:text-primary"><Icon className="h-4 w-4 shrink-0" />{label === "Email" ? "info@delighttechpro.com" : label}</a></li>
             ))}
           </ul>
         </div>
