@@ -30,8 +30,8 @@ function Home() {
       <PortfolioSection />
       <SalesProofSection />
       <OnePartner />
-      <ProcessSection />
       <TestimonialsSection />
+      <ProcessSection />
       <WhySection />
       <FaqSection />
       <CtaBand />
