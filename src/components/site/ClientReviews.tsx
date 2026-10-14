@@ -28,7 +28,7 @@ import photo23 from "@/assets/review-client-23.png";
 import photo24 from "@/assets/review-client-24.png";
 
 const reviewPhotos = [photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11, photo12, photo13, photo14, photo15, photo16, photo17, photo18, photo19, photo20, photo21];
-const photoSlots: Record<number, string> = { 21: photo22, 22: photo23, 23: photo24 };
+const photoSlots: Record<number, string> = { 18: photo23, 20: photo24, 21: photo22 };
 const publishedReviews = [...additionalReviews, ...existingReviews].map((review, index) => ({
   ...review,
   photo: reviewPhotos[index] ?? photoSlots[index],
