@@ -77,7 +77,7 @@ export function ClientReviews() {
 
   function sendReview(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    if (!rating || !email) return;
+    const form = new FormData(event.currentTarget);
     const form = new FormData(event.currentTarget);
     const body = [
       `Name: ${form.get("name")}`, `Company: ${form.get("company") || "Not provided"}`,
