@@ -82,7 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "author", content: "DelighTech Pro" },
+      { name: "author", content: "DelightTech Pro" },
       { property: "og:site_name", content: "DelightTech Pro" },
       { name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1" },
     ],
@@ -96,6 +96,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
               "@type": "ProfessionalService",
               "@id": "https://delighttechpro.lovable.app/#org",
               name: "DelightTech Pro",
+              alternateName: ["Delight Tech Pro", "DelightTechPro", "Delight Tech", "DelighTech Pro"],
               url: "https://delighttechpro.lovable.app",
               logo: "https://delighttechpro.lovable.app/favicon.png",
               email: "info@delighttechpro.com",

@@ -1,6 +1,6 @@
 # DelightTech Pro
 
-> DelightTech Pro is an end-to-end Shopify and eCommerce growth partner with 6+ years of hands-on experience. We build, fix, optimize and market Shopify stores for brands in the United States, United Kingdom, Canada, Australia, New Zealand, Germany, France, the Netherlands, Sweden and the United Arab Emirates.
+> DelightTech Pro (also written "Delight Tech Pro") is an end-to-end Shopify and eCommerce growth partner with 6+ years of hands-on experience. We build, fix, optimize and market Shopify stores for brands in the United States, United Kingdom, Canada, Australia, New Zealand, Germany, France, the Netherlands, Sweden and the United Arab Emirates.
 
 ## Services
 - Shopify store development and redesign
@@ -17,6 +17,7 @@
 
 ## Pages
 - [Home](https://delighttechpro.lovable.app/)
+- [Free Shopify Store Audit tool](https://delighttechpro.lovable.app/free-store-audit): free online analyzer for any eCommerce store or website (SEO, speed, conversion, design, marketing)
 - [Services](https://delighttechpro.lovable.app/services)
 - [Shopify Development](https://delighttechpro.lovable.app/shopify-development)
 - [eCommerce Growth](https://delighttechpro.lovable.app/growth)
