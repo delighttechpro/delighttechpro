@@ -48,7 +48,7 @@ async function timedFetch(url: string, ms = 12000) {
 }
 
 const count = (html: string, re: RegExp) => (html.match(re) || []).length;
-const strip = (s: string) => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+const strip = (s: string) => s.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, "\"").replace(/\s+/g, " ").trim();
 
 export function analyzeHtml(html: string, finalUrl: string, responseMs: number, extras: { robots: boolean; sitemap: boolean }): Omit<AuditResult, "url"> {
   const f: AuditFinding[] = [];
