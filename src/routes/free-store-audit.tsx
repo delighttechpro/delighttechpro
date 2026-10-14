@@ -15,7 +15,7 @@ export const Route = createFileRoute("/free-store-audit")({
     return {
       ...base,
       scripts: [
-        ...((base as { scripts?: unknown[] }).scripts ?? []),
+        ...(("scripts" in base && Array.isArray(base.scripts)) ? base.scripts : []),
         {
           type: "application/ld+json",
           children: JSON.stringify({
