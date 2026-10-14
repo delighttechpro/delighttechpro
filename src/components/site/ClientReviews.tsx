@@ -26,9 +26,14 @@ import photo21 from "@/assets/review-client-21.png";
 import photo22 from "@/assets/review-client-22.png";
 import photo23 from "@/assets/review-client-23.png";
 import photo24 from "@/assets/review-client-24.png";
+import photo25 from "@/assets/review-client-25.png";
+import photo26 from "@/assets/review-client-26.png";
+import photo27 from "@/assets/review-client-27.png";
+import photo28 from "@/assets/review-client-28.png";
+import photo29 from "@/assets/review-client-29.png";
 
 const reviewPhotos = [photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11, photo12, photo13, photo14, photo15, photo16, photo17, photo18, photo19, photo20, photo21];
-const photoSlots: Record<number, string> = { 18: photo23, 20: photo24, 21: photo22 };
+const photoSlots: Record<number, string> = { 18: photo23, 19: photo25, 20: photo24, 21: photo22, 42: photo26, 46: photo27, 51: photo28, 54: photo29 };
 const publishedReviews = [...additionalReviews, ...existingReviews].map((review, index) => ({
   ...review,
   photo: reviewPhotos[index] ?? photoSlots[index],
