@@ -111,7 +111,7 @@ export function ClientReviews() {
         </Reveal>
         <div className="mt-10 flex flex-wrap items-start justify-between gap-6">
           <h3 className="text-2xl font-semibold">Client Reviews <span className="text-muted-foreground">({publishedReviews.length})</span></h3>
-          <div className="flex max-w-full flex-wrap gap-2" role="group" aria-label="Filter client reviews">{["All", ...reviewServices].map((service) => <Button key={service} type="button" variant={active === service ? "default" : "ghost"} aria-pressed={active === service} onClick={() => { setActive(service); setPage(1); }} className="h-auto whitespace-normal rounded-full px-4 py-2 text-xs">{service} ({counts(service)})</Button>)}</div>
+          <div className="flex max-w-full flex-wrap gap-2" role="group" aria-label="Filter client reviews">{["All", ...reviewServices].map((service) => <Button key={service} type="button" variant={active === service ? "default" : "ghost"} aria-pressed={active === service} onClick={() => { setActive(service); setVisibleCount(15); }} className="h-auto whitespace-normal rounded-full px-4 py-2 text-xs">{service} ({counts(service)})</Button>)}</div>
         </div>
         <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3" aria-label="Published client reviews">
           {visibleReviews.map((review) => (
