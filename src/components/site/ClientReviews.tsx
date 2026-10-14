@@ -139,13 +139,11 @@ export function ClientReviews() {
             </article>
           ))}
         </div>
-        <div className="mt-8 flex flex-wrap items-center justify-between gap-4 border-t border-border pt-6">
-          <p className="text-sm text-muted-foreground" aria-live="polite">Showing {(page - 1) * pageSize + 1}–{Math.min(page * pageSize, filteredReviews.length)} of {filteredReviews.length} reviews</p>
-          <nav className="flex items-center gap-3" aria-label="Review pages">
-            <Button type="button" variant="outline" size="icon" aria-label="Previous review page" title="Previous review page" disabled={page === 1} onClick={() => setPage((current) => current - 1)}><ChevronLeft /></Button>
-            <span className="min-w-20 text-center text-sm">{page} / {totalPages}</span>
-            <Button type="button" variant="outline" size="icon" aria-label="Next review page" title="Next review page" disabled={page === totalPages} onClick={() => setPage((current) => current + 1)}><ChevronRight /></Button>
-          </nav>
+        <div className="mt-8 flex flex-col items-center gap-3 border-t border-border pt-6">
+          <p className="text-sm text-muted-foreground" aria-live="polite">Showing {Math.min(visibleCount, filteredReviews.length)} of {filteredReviews.length} reviews</p>
+          {hasMore && (
+            <Button type="button" variant="outline" className="h-11 px-8" aria-label="Show 15 more reviews" title="Show 15 more reviews" onClick={() => setVisibleCount((current) => current + batchSize)}>Read More</Button>
+          )}
         </div>
       </div>
     </section>
