@@ -27,9 +27,9 @@ function Home() {
       <Trust />
       <HealthCheckSection />
       <ServicesExplorer />
-      <OnePartner />
       <PortfolioSection />
       <SalesProofSection />
+      <OnePartner />
       <ProcessSection />
       <TestimonialsSection />
       <WhySection />
