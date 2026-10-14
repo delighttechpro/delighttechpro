@@ -8,7 +8,7 @@ export type AuditFinding = {
   title: string;
   measured: string;
   impact: "High" | "Medium" | "Low";
-  suggestion?: string;
+  suggestion?: string | undefined;
 };
 export type AuditResult = {
   url: string;
